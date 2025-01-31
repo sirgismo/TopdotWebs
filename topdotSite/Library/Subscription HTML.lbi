@@ -1,0 +1,25 @@
+		<div id="footerbar">  			
+			<div class="footer-column">
+				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Projects</p>	
+				<p><a href="Projects/ArtInstallation/">Art Installation</a></p>	
+				<p><a href="Projects/customResidential.html">Custom Residential</a></p>					
+				<p><a href="Projects/multiUnit-Commercial-MixedUse.html">Multi-Unit | Commercial | Mixed-Use</a></p>			
+			</div>
+			<div class="footer-column">
+				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Follow Us</p>
+				<p><a href="blog.html">Blog</a></p>	
+				<p style="margin-block-end: 0.5em;"><a href="https://www.instagram.com/topdotarchitects" target="_blank"><img src="../images/instagram.png" width="36" height="36" alt="" /></a></p>
+				<p style="margin-block-start: 0em;"><a href="https://www.facebook.com/topdotarchitects" target="_blank"><img src="../images/fb.png" width="30" height="30" alt="" /></a></p>
+			</div>
+			
+			<div class="footer-column">				
+				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Contact Us</p>	
+				<p><a href="contact.html">Contact</a></p>	
+			</div>	
+			
+			<div class="footer-column" >
+				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Subscribe For Future Content</p>
+				<div class="sender-form-field" data-sender-form-id="lj2ztg7iaazkzb0k60o"></div>
+			</div>
+			
+		</div>

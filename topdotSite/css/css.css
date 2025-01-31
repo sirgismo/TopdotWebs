@@ -1,0 +1,674 @@
+@charset "UTF-8";
+
+.topdotLogo {
+	height: 50px;
+}
+
+.instagramLogo {
+	height: 0px;
+}
+
+body{	
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #363a47;	
+}
+
+
+body #content{
+	margin-top: 20px;
+	padding-right: 2%;
+	padding-left: 2%;	
+
+}
+
+p{
+	line-height: 1.5;
+}
+
+h3{
+	text-align:left;
+}
+
+a{
+	color: #000;	
+}
+
+a:hover {
+  color: #8D8D8D;
+}
+
+.sender-form-field {
+	min-width: 380px;
+}
+
+.breadcrumb-container {  
+	max-width: 100%;  
+	overflow: hidden;
+	padding-left: 2%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;	
+}
+
+.breadcrumb li {
+  margin-right: 10px;
+}
+
+.breadcrumb li:last-child {
+  margin-right: 0;
+}
+
+.breadcrumb li a {
+  color: #555;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  color: #8d8d8d;
+}
+
+
+.breadcrumb li span {
+  color: #555;
+}
+
+@media only screen and (max-width: 768px) {
+  /*
+	.breadcrumb li:not(:last-child) {
+    display: none;
+  }
+
+  .breadcrumb li:last-child {
+    display: block;
+  }
+	*/
+}
+
+
+/* CSS for index page */
+
+#onloadContent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width to 100% to span the entire page */
+    height: 100%; /* Set the desired height of the element */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+	z-index: 9999; /* Set the z-index to ensure it's positioned above other elements */
+}
+
+
+#onloadContent.fade-out {
+  opacity: 0;
+}
+
+
+/* home page */
+
+#intro {
+  font-size: 2em;
+  font-weight: bold;
+  opacity: 0; /* Set opacity to 0 to hide the text initially*/
+  z-index: 1;	
+  position: absolute;
+  top: 50%;
+  left: 0%; /* Change the initial left position to 0%*/
+  transform: translate(-100%, -50%); /* Move the text outside of the left edge of the page*/
+  text-align: center;
+  animation: slide-in 2s ease-in-out forwards; /* Add the slide-in animation*/
+}
+
+@keyframes slide-in {
+  from {
+    left: 0%; /* Start the animation from the left edge of the page*/
+    opacity: 0;
+  }
+  to {
+    left: 50%; /* End the animation at the center of the page*/
+    opacity: 1;
+  }
+}
+
+
+#intro h3 {
+	font-size: 3rem;
+	font-weight: normal;
+	margin-bottom: 0.5rem;
+	color: #6B6B6B;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+#introLogo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  transform: translate(-50%, -50%) rotate(18deg);
+  opacity: 0;
+  animation: slide-in-logo 2s ease-in-out forwards;
+}
+
+@keyframes slide-in-logo {
+  from {
+    transform: translate(-50%, -50%) rotate(-18deg) scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(18deg) scale(1);
+    opacity: 1;
+  }
+}
+
+#slider {
+  position: relative;
+  height: 100vh; 
+  overflow: hidden;
+	z-index: 0;
+}
+
+#slider img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+
+}
+
+#slider img.active {
+  opacity: 1;
+
+}
+
+#slider img.first-image {
+  opacity: 1;
+
+}
+
+#slider-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+@keyframes firstImage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+
+/* contact page */
+
+#form-container{
+	
+	display: flex;
+	max-width: 700px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 66.66%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 0px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 10px;  
+}
+.cog-form, :root:root:root:root:root .cog-form {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Remove the footing of the contact form */
+.cog-abuse, :root:root:root:root:root .cog-abuse, .cog-branding--minimal, .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+	display: none;
+}
+
+.contactContainerHeader {
+	width: 100%;
+	text-align: ;
+	padding-left: 20px;
+	background-color: lightgray;
+	box-sizing: border-box;
+	border: 0px solid #ccc;
+	border-top-left-radius: 09px;
+	border-top-right-radius: 09px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: 20px;
+}
+.contactForm{
+	display: flex;
+	max-width: 700px;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 66.66%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#contact-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 66.66%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	max-width: 700px;		
+	font-family: 'Open Sans', sans-serif;		
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.contact-item label {
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.contact-item a {
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+}
+
+.contact-info .info-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	h3 {
+		text-align:left;
+	}
+	#intro h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+	h3 { 
+	text-align:left;
+	}
+	
+  #intro h3 {
+    font-size: 1.75rem;
+  }
+}
+
+
+/* CSS for Projects page */
+
+#grid1 {
+	margin-bottom: 2%;	
+	padding-right: 2%;
+	padding-left: 2%;	
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(0, 1fr);
+	grid-gap: .8rem;
+}
+
+#grid1 a .image-overlay {	
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* This is the aspect ratio of 3840x2160 in percentage (2160/3840 * 100) */
+  overflow: hidden;
+}
+
+
+#grid1 a .image-overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media (max-width: 768px) {
+  #grid1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+/* CSS for grids */
+
+#grid2 {
+	margin-bottom: 2%;	
+	padding-right: 2%;
+	padding-left: 2%;	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(0, 1fr);
+	grid-gap: .8rem;
+	 
+}
+
+#grid2 a .image-overlay {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* This is the aspect ratio of 3840x2160 in percentage (2160/3840 * 100) */
+  overflow: hidden;
+}
+
+
+#grid2 a .image-overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;		
+}
+
+.image-overlay {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.image-overlay img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: filter 0.2s ease-in-out;	
+	filter: grayscale(40%)
+}
+
+.image-overlay:hover img {
+	filter: grayscale(80%) brightness(80%);
+
+}
+
+.overlay-text {
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0.2rem;
+	padding: 0.2rem;
+	font-size: 1.1rem;
+	color: white;
+	pointer-events: none;
+	backdrop-filter: blur(8px);
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px; /* add this line to make the corners curved */
+}
+
+@media (max-width: 768px) {
+  #grid2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(0, 1fr);
+  }
+}
+
+
+/* CSS for post*/
+
+#feturedImgContainer {
+	max-height: 66.67vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden; /* optional, hides the image if it overflows the container */
+}
+
+#feturedImgContainer img {
+	width: 100%;
+	height: auto;
+	object-fit: cover; /* optional, fills the container while maintaining aspect ratio */
+}
+
+
+/* Post content */
+.post-content {
+    margin-left: 2%;
+    margin-right: 2%;
+	margin-top: 1%;
+    align-self: stretch; /* Stretch to match parent height */
+
+}
+.post-title #post-name{  
+	font-size: 2.5rem;
+	font-weight: normal;
+	white-space: nowrap;
+	padding-right: 20px;
+}
+.post-subtitle {
+  	font-size: 1.2rem;
+  	margin-top: -1rem;
+	font-weight: normal;
+	color: #8d8d8d;
+}
+.post-wrapper {
+  	display: flex;
+  	width: 100%;
+
+}
+
+.post-LeftContainer {
+  	font-size: 1rem;
+  	flex-basis: 33.33%;
+	padding-right: 10px;
+}
+
+.post-LeftContainer h1{ 
+    margin-block-start: 0.5em;	
+}
+
+.post-RightContainer {
+	font-size: 1rem;
+	text-align: justify;
+	font-weight: normal;
+	flex-basis: 66.67%;
+}
+
+
+/* Blog */
+
+.post-title{  
+	font-size: 2.5rem;
+	font-weight: normal;
+}
+
+.collapsible {
+  width: 100%;
+	margin-bottom: 5rem;
+}
+
+.collapsibleTitle {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	font-weight: normal;	
+	font-size: 1rem;	
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	border: 1px solid #d3d3d3;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+
+.collapsibleTitle h3 {
+	font-weight: normal;
+    margin-block-start: 0.5em;	
+    margin-block-end: 0.5em;
+	
+	
+}
+
+.collapsibleContent {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.collapsibleContent p{
+    margin-block-start: 0em;
+	
+}
+
+.collapsibleContent.show {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.toggle {
+  	font-size: 24px;
+  	margin-right: 10px;
+}
+
+
+/* Practice Page */
+
+.practicePage-titles {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-weight: normal;
+  color: #8d8d8d;
+  flex-basis: 33.33%;
+}
+
+.practicePage-text {
+  font-size: 1rem;
+  text-align: justify;
+  flex-basis: 66.67%;
+}
+
+.practicePage-wrapper {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.practicePage-methodologyLeftContainer {
+  font-size: 1rem;
+  text-align: justify;
+  flex-basis: 66.67%;  
+}
+
+.practicePage-methodologyRightContainer {
+font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-weight: normal;
+  flex-basis: 33.33%;
+}
+
+
+  /* Media query for mobile screen sizes */
+  @media screen and (max-width: 767px) {
+    .practicePage-wrapper,
+	  .post-wrapper {
+      flex-wrap: wrap;
+    }
+
+    .practicePage-titles,
+    .practicePage-text,
+	.practicePage-methodologyLeftContainer,
+	  .practicePage-methodologyRightContainer,
+	  .post-LeftContainer,
+	  .post-RightContainer
+	  {
+      flex-basis: 100%;
+    }
+	  
+	 .post-LeftContainer {	
+		 padding-right: 0px;
+	  }
+	  
+	  
+  }
+
+
+
+
+
+/* CSS for photo Gallery */
+
+#masonry {
+  clear: both;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  column-count: 3;
+  column-gap: 16px;
+}
+
+#masonryItem img {
+	width: 100%;
+}
+
+.masonry .mItem {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  #masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 991px) {
+  #masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  #masonry {
+    column-count: 1;
+  }
+}
+
+
+
+
+

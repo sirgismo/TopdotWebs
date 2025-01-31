@@ -1,0 +1,10 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	    
+
+<!-- JS for the page name variable  -->
+<script>
+	document.getElementById("breadcrumb-page-name").innerText = pageName;
+    document.getElementById("post-name").innerText = pageName;
+	
+</script>
+
+
