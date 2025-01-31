@@ -507,6 +507,7 @@ a:hover {
 	text-align: justify;
 	font-weight: normal;
 	flex-basis: 66.67%;
+  min-height: 300px;
 }
 
 
