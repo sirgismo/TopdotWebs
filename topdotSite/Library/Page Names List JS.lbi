@@ -9,7 +9,7 @@
 		var cr07 = "Fairfield"; 			/* PENDING */
 		var cr08 = "Elevate One"; 		
 		var cr09 = "House of Generations";	/*797 Millwood*/
-		var cr10 = "Glass Garden";
+		var cr10 = "Glass Garden";			/*ELspeth PI*/
 		
 	
 		var muc01 = "Ocean View"			/* need image description */
