@@ -1,13 +1,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script>
-		var cr01 = "Angle House";
+		var cr01 = "Angle House";			
 		var cr02 = "Island House";
-		var cr03 = "House of Circulation";
-		var cr04 = "House of Comfort";
+		var cr03 = "House of Circulation";  /*17 Stanley Ave.*/
+		var cr04 = "House of Comfort";       
 		var cr05 = "Elevation Escape"; 		/* MORE PHOTOS */
 		var cr06 = "Brawley"; 				/* PENDING */
 		var cr07 = "Fairfield"; 			/* PENDING */
-		var cr08 = "Elevate One"; 
+		var cr08 = "Elevate One"; 		
 		var cr09 = "House of Generations";	
 		var cr10 = "Glass Garden";
 		
@@ -19,7 +19,7 @@
 		var muc05 = "Missing Middle" 		/* done */
 		var muc06 = "SpaceWise"				/*Thirteenth - need image description */		
 		var muc07 = "Skyward"				/* Mimico */
-		var muc08 = "Crazy Burger"
+		var muc08 = "Crazy Burger"			
 		var muc09 = "Light Breeze"			/*done */	
 		var muc10 = "Family Dentistree"			
 		
