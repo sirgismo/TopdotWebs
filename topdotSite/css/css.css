@@ -378,12 +378,12 @@ a:hover {
 
 #grid2 {
 	margin-bottom: 2%;	
-	padding-right: 2%;
-	padding-left: 2%;	
+	padding-right: 0.5%;
+	padding-left: 0.5%;	
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(0, 1fr);
-	grid-gap: .8rem;
+	grid-gap: .2rem;
 	 
 }
 
