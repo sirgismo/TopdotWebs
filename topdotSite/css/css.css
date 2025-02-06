@@ -383,7 +383,7 @@ a:hover {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(0, 1fr);
-	grid-gap: .2rem;
+	grid-gap: .5%;
 	 
 }
 
