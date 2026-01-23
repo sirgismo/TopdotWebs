@@ -1,1 +1,17 @@
-echo ".DS_Store" >> .gitignore
+# OS junk
+.DS_Store
+.DS_Store?
+._*
+__MACOSX/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*

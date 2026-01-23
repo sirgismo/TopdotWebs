@@ -8,9 +8,14 @@
 
 #mainwrapper header {
 	/*Header */
-	overflow: auto;
-	padding-left: 20px; /* Adjust the value according to your desired gap size */
-  box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	position: relative; /* helps any absolutely-positioned children anchor correctly */
+	box-sizing: border-box;
+	padding: 12px 24px;
+	background-color: #fff;
 
   z-index: 1;
 	font-family: montserrat, sans-serif;
@@ -18,26 +23,13 @@
 	font-weight: 400;
 }
 
-#mainwrapper header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px; /* Adjust the value according to your desired gap size */
-  height: 100%;
-  background-color: #fff; /* Set the background color to match the background of your header */
-  z-index: -1;
-}
+/* Removed header::before which was creating a white space on the left */
 
 #mainwrapper header #logo {
 	/* Company Logo text */
 	display: flex;
     align-items: center; /* align items vertically in the middle */
-	height: 50px;
-	width: 30%;
-	float: left;	
-	padding-top: 12px;
-	padding-bottom: 12px;
+	gap: 10px;
 	color: rgba(146,146,146,1.00);
 
 }
@@ -48,20 +40,17 @@
 #mainwrapper header #logoText{
 	color: #383737;
 	font-size: 25px;
-	padding-left: 10px; /* add some space between the logo image and text */
 	white-space: nowrap;
 }
 
 #mainwrapper header nav {
 	/*Nav bar containing links in header */
 	display: flex;
-	height: 50px;
-	width: 70%;
-	padding-top: 12px;
-	padding-bottom: 12px;
 	align-items: center; /* align items vertically in the middle */
 	color: rgba(146,146,146,1.00);
-	justify-content: flex-end;	
+	justify-content: flex-end;
+	gap: 24px;
+	flex: 1;
 }
 
 #mainwrapper header nav a {
@@ -69,7 +58,6 @@
 	color:#484848;
 	text-decoration: none;	
 	/* Links in header  */
-	padding-right: 3%;
 }
 
 #mainwrapper header nav a:hover {
@@ -77,7 +65,6 @@
 	color:#8D8D8D;	
 	text-decoration: none;	
 	/* Links in header  */
-	padding-right: 3%;
 }
 
 /* css for selected nav bar to change color*/
@@ -101,18 +88,11 @@ nav ul li a {
 	text-decoration: none;
 }
 
-
-
-
-
 #mainwrapper header .icon{
     display: none;
 }
-
-
 /* change the navigation in smaller screensize*/
 @media (max-width:828px){
-
   /* Move navigation menu to the right */
   #mainwrapper header nav {
     display: none;
@@ -125,7 +105,6 @@ nav ul li a {
     padding: 20px;
     text-align: right; /* Align text to the right */
 	 z-index: 1;
-
   }
 	#mainwrapper header #menu {
 		  background: rgba(255,255,255,0.97);
@@ -140,12 +119,10 @@ nav ul li a {
 		text-align: center;
 		margin-top: 5%;
 	}	
-  
 	/* Show navigation menu when hamburger icon is clicked */
 	#mainwrapper header #menu .icon.clicked + nav {
 		display: block;
 	}
-	
 	/* Style navigation menu links */
 	#mainwrapper header nav a {		
 		color: #484848;
@@ -181,13 +158,6 @@ nav ul li a {
 
 		
 }
-
-
-
-
-
-
-
 
 
 #content #mainContent h1, #content #mainContent h2 {

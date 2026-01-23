@@ -2,9 +2,14 @@
 
 <!-- JS for the page name variable  -->
 <script>
-	document.getElementById("breadcrumb-page-name").innerText = pageName;
-    document.getElementById("post-name").innerText = pageName;
-	
+    let breadcrumbPageName = document.getElementById("breadcrumb-page-name");
+    if (breadcrumbPageName) {
+        breadcrumbPageName.innerText = pageName;
+    }
+    let postName = document.getElementById("post-name");
+    if (postName) {
+        postName.innerText = pageName;
+    }
 </script>
 
 
