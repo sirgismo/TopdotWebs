@@ -18,22 +18,17 @@
 	<meta property="og:image" content="https://topdot.ca/images/projectsImages/customReisdential/cr10/Featured.jpg" />
 	
 	<link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
-	<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="https://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
-
+	<script src="https://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
 
 	<link href="../../css/blogPostStyle.css?v=1.0" rel="stylesheet" type="text/css">
 	<link href="../../css/css.css?v=1.0" rel="stylesheet" type="text/css">
-	
-		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-	<!-- #BeginLibraryItem "/Library/Hamburger Menu Icon Library.lbi" -->
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- #EndLibraryItem -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 </head>
 
 <body>
 	
-	<!-- JS for the list of post names --><!-- #BeginLibraryItem "/Library/Page Names List JS.lbi" -->
+	<!-- JS for the list of post names -->
 <script>
 		var cr01 = "Angle House";
 		var cr02 = "Island House";
@@ -75,12 +70,12 @@
 		var ir04 = "Wilson"					/* PENDING */
 
 		
-	</script><!-- #EndLibraryItem --><!-- Set the name for the page so it applies to the fields which uses <span id="page-name"></span>	-->
+	</script><!-- Set the name for the page so it applies to the fields which uses <span id="page-name"></span>	-->
 	<script>      
 		let pageName = cr10;      		
     </script>
 		<div id="mainwrapper">	
-			<header><!-- #BeginLibraryItem "/Library/Header HTML.lbi" -->
+			<header>
 
 		<div id="logo">			
 			<a href="../../index.html">
@@ -106,7 +101,7 @@
 		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i>
-		</a><!-- #EndLibraryItem --></header>	
+		</a></header>	
 
 			<div class="breadcrumb-container">
 			  <ul class="breadcrumb">
@@ -172,42 +167,26 @@
 			<div id="masonryItem" class="mItem">
 				<img src="../../images/projectsImages/customReisdential/cr10/Gallery/09.jpg">
 			</div>		
-		</div><!-- #BeginLibraryItem "/Library/Subscription HTML.lbi" -->		<div id="footerbar">  			
-			<div class="footer-column">
-				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Projects</p>	
-				<p><a href="../../Library/Projects/ArtInstallation">Art Installation</a></p>	
-				<p><a href="../../Library/Projects/customResidential.html">Custom Residential</a></p>					
-				<p><a href="../../Library/Projects/multiUnit-Commercial-MixedUse.html">Multi-Unit | Commercial | Mixed-Use</a></p>			
-			</div>
-			<div class="footer-column">
-				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Follow Us</p>
-				<p><a href="../../Library/blog.html">Blog</a></p>	
-				<p style="margin-block-end: 0.5em;"><a href="https://www.instagram.com/topdotarchitects" target="_blank"><img src="../../images/instagram.png" width="36" height="36" alt="" /></a></p>
-				<p style="margin-block-start: 0em;"><a href="https://www.facebook.com/topdotarchitects" target="_blank"><img src="../../images/fb.png" width="30" height="30" alt="" /></a></p>
-			</div>
-			
-			<div class="footer-column">				
-				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Contact Us</p>	
-				<p><a href="../../Library/contact.html">Contact</a></p>	
-			</div>	
-			
-			<div class="footer-column" >
-				<p style="background-color: #A1A1A1; color: white; margin-block-start: 0em;">Subscribe For Future Content</p>
-				<div class="sender-form-field" data-sender-form-id="lj2ztg7iaazkzb0k60o"></div>
-			</div>
-			
-		</div><!-- #EndLibraryItem --></div>	
-	
-<!-- JS for the page name variable  --><!-- #BeginLibraryItem "/Library/Page Name JS.lbi" -->	    
+		</div>
 
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/footer.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/footer.php";
+		?>
+	</div>	
+	
 <!-- JS for the page name variable  -->
 <script src="../../js/pageName.js" defer></script>
 
-
-<!-- #EndLibraryItem --><!-- JS for header  --><!-- #BeginLibraryItem "/Library/Header JS.lbi" -->
 <!-- Shared navigation JS (hamburger + selected nav link) -->
 <script src="../../js/nav.js" defer></script>
-<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/Subscription JS.lbi" --><!-- JS for the subscription form  -->
+
+<!-- JS for the subscription form  -->
 <script>
       (function (s, e, n, d, er) {
         s['Sender'] = er;
@@ -221,5 +200,5 @@
         m.parentNode.insertBefore(a, m)
       })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
       sender('3ba11c462d5629')
-    </script><!-- #EndLibraryItem --></body>
+    </script></body>
 </html>

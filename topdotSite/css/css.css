@@ -36,6 +36,25 @@ h3{
 	text-align:left;
 }
 
+/* Footer theme (centralize footer styling here) */
+:root {
+	--footer-title-bg: #A1A1A1;
+	--footer-title-color: #fff;
+}
+
+/*
+Footer "column titles"
+- New pages: use <p class="footer-column-title">...</p>
+- Old pages: many still have inline styles; the `!important` ensures CSS stays in control.
+*/
+#footerbar .footer-column > p:first-child,
+.footer-column-title {
+	background-color: var(--footer-title-bg) !important;
+	color: var(--footer-title-color) !important;
+	margin-block-start: 0 !important;
+	padding: 0; /* keep identical to previous inline behavior */
+}
+
 a{
 	color: #000;	
 }

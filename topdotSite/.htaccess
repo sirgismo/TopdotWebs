@@ -37,6 +37,23 @@ RewriteRule ^(.+?)/?$ $1.html [L]
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 
+# Allow PHP in .html/.htm so we can use shared includes (header/footer)
+# This keeps existing URLs (no renames to .php needed).
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .html .htm
+</IfModule>
+
+# Fallback for non-cPanel/local Apache setups (e.g., Laragon)
+<IfModule mime_module>
+  AddType application/x-httpd-php .html .htm
+</IfModule>
+
+# Stronger fallback: force PHP handler for .html/.htm
+# (Needed on some Apache/PHP configurations where AddType/AddHandler is ignored for .html)
+<FilesMatch "\.(html|htm)$">
+  SetHandler application/x-httpd-php
+</FilesMatch>
+
 # Prevent HTML Caching
 <IfModule mod_headers.c>
     <FilesMatch "\.(html|css)$">
