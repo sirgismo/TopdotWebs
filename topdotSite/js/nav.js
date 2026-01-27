@@ -1,12 +1,4 @@
 // nav.js
-// What this file does:
-// - Controls the mobile "hamburger" menu (show/hide the nav links on small screens)
-// - Keeps the "selected" class in the navbar in sync with the current page
-//
-// Why this exists:
-// This logic was duplicated across many HTML files. Keeping it in one file makes the site
-// easier to maintain: change it once and every page gets the fix.
-
 /**
  * Toggle the mobile navigation menu.
  *

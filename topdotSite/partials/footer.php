@@ -1,33 +1,8 @@
 <?php
 /**
  * Shared footer include.
- *
- * Goal: one source of truth for footer HTML, without changing URLs.
- * This file is safe to include from any depth (Blog/, Projects/, etc.)
- * because it builds links using the site "base URL" ('' or '/topdot').
  */
-function topdot_site_base_url(): string {
-    $docRoot = $_SERVER["DOCUMENT_ROOT"] ?? "";
-    $scriptName = $_SERVER["SCRIPT_NAME"] ?? "";
-
-    $looksLikeSiteRoot = function (string $path): bool {
-        if ($path === "") return false;
-        $sep = DIRECTORY_SEPARATOR;
-        return is_file($path . $sep . "index.html") && is_dir($path . $sep . "Blog") && is_dir($path . $sep . "Projects");
-    };
-
-    // If the document root itself is the site root (production), no base prefix is needed.
-    if ($looksLikeSiteRoot($docRoot)) return "";
-
-    // Otherwise (local Laragon), the site is usually served from a subdirectory like "/topdot".
-    $first = explode("/", trim($scriptName, "/"))[0] ?? "";
-    if ($first !== "" && $looksLikeSiteRoot($docRoot . DIRECTORY_SEPARATOR . $first)) {
-        return "/" . $first;
-    }
-
-    return "";
-}
-
+require_once __DIR__ . "/base.php";
 $base = topdot_site_base_url();
 ?>
 
@@ -64,3 +39,18 @@ $base = topdot_site_base_url();
         <div class="sender-form-field" data-sender-form-id="lj2ztg7iaazkzb0k60o"></div>
     </div>
 </div>
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments);
+    }, s[er].l = 1 * new Date();
+    var a = e.createElement(n),
+      m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m);
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('3ba11c462d5629');
+</script>

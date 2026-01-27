@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BL7SMMJKEG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -10,8 +9,8 @@
 
       gtag('config', 'G-BL7SMMJKEG');
     </script>	
-	<link href="css/blogPostStyle.css?v=1.0" rel="stylesheet" type="text/css">
-	<link href="css/css.css?v=1.0" rel="stylesheet" type="text/css">	
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/layout.css" rel="stylesheet" type="text/css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>topdot architects</title>
@@ -23,39 +22,20 @@
 
 <body>
 
-	<!-- Name the page so it applies to the fields which uses <span id="page-name"></span>	-->
 	<script>	
       let pageName = "Projects";
     </script>	
 	
 	<div id="mainwrapper">	
-		<header>
-
-		<div id="logo">			
-			<a href="index.html">
-				<div id="logoImage">			
-					<img src="images/circleLogo.png" class="topdotLogo">
-				</div>
-			</a>
-			<a href="index.html" title="">
-				<div id="logoText">			
-					topdot architects
-				</div>
-			</a>
-		</div>
-
-		<nav id="menu"> 
-			<a id="homeButton" href="index.html" class="selected" onclick="selectLink(this)">Home</a> 
-			<a href="projects.html" class="selected" onclick="selectLink(this)">Projects</a>
-			<a href="practice.html" class="selected" onclick="selectLink(this)">Practice</a>
-			<a href="blog.html" class="selected" onclick="selectLink(this)">Blog</a>			
-			<a href="contact.html" class="selected" onclick="selectLink(this)">Contact</a>
-
-		</nav>
-		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i>
-		</a></header>	
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/header.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/header.php";
+		?>
 	
 	  <div id="grid1">
 		<a href="Projects/customResidential.html">
@@ -96,25 +76,9 @@
 	</div>
 
 	
-<!-- JS for the page name variable  -->
 <script src="js/pageName.js" defer></script>
 
-<!-- Shared navigation JS (hamburger + selected nav link) -->
 <script src="js/nav.js" defer></script>
 
-<!-- JS for the subscription form  -->
-<script>
-      (function (s, e, n, d, er) {
-        s['Sender'] = er;
-        s[er] = s[er] || function () {
-          (s[er].q = s[er].q || []).push(arguments)
-        }, s[er].l = 1 * new Date();
-        var a = e.createElement(n),
-            m = e.getElementsByTagName(n)[0];
-        a.async = 1;
-        a.src = d;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
-      sender('3ba11c462d5629')
-    </script></body>
+</body>
 </html>

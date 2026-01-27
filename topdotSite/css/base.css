@@ -1,0 +1,180 @@
+/* ============================================
+   DESIGN TOKENS
+   ============================================ */
+:root {
+	/* Colors - Text */
+	--color-text-primary: #1a1a1a;
+	--color-text-secondary: rgba(26, 26, 26, 0.75);
+	--color-text-muted: rgba(26, 26, 26, 0.6);
+	--color-text-light: rgba(26, 26, 26, 0.6);
+	--color-text-breadcrumb: rgba(26, 26, 26, 0.75);
+	--color-text-dark: #1a1a1a;
+	--color-text-white: #f5f5f0;
+	--color-text-logo: #1a1a1a;
+	
+	/* Colors - Links */
+	--color-link: #1a1a1a;
+	--color-link-hover: #B7990D;
+	--color-link-dark: #1a1a1a;
+	
+	/* Colors - Backgrounds */
+	--color-bg-white: #f5f5f0;
+	--color-bg-form: #f5f5f0;
+	--color-bg-gray: rgba(26, 26, 26, 0.04);
+	--color-bg-gray-light: rgba(26, 26, 26, 0.02);
+	--color-bg-gray-medium: rgba(26, 26, 26, 0.06);
+	--color-bg-gray-transparent: rgba(26, 26, 26, 0.08);
+	--color-bg-overlay: rgba(26, 26, 26, 0.5);
+	--color-bg-overlay-light: rgba(245, 245, 240, 0.85);
+	--color-bg-overlay-menu: rgba(245, 245, 240, 0.97);
+
+	/* Theme - Header */
+	--header-bg: #f5f5f0;
+	--header-text: #1a1a1a;
+	--header-text-muted: rgba(26, 26, 26, 0.6);
+	--header-link: #1a1a1a;
+	--header-link-hover: #B7990D;
+	
+	/* Colors - Borders */
+	--color-border: rgba(26, 26, 26, 0.25);
+	--color-border-light: rgba(26, 26, 26, 0.18);
+	
+	/* Colors - Footer */
+	--footer-title-bg: #f5f5f0;
+	--footer-title-color: #1a1a1a;
+	
+	/* Typography - Font Families */
+	--font-body: 'Open Sans', sans-serif;
+	--font-heading: montserrat, sans-serif;
+	--font-content: source-sans-pro, sans-serif;
+	
+	/* Typography - Font Sizes */
+	--font-size-base: 1rem;
+	--font-size-sm: 0.875rem;
+	--font-size-md: 1rem;
+	--font-size-lg: 1.2rem;
+	--font-size-xl: 1.5rem;
+	--font-size-xxl: 2.5rem;
+	--font-size-logo: 25px;
+	
+	/* Spacing */
+	--spacing-xs: 5px;
+	--spacing-sm: 10px;
+	--spacing-md: 12px;
+	--spacing-lg: 20px;
+	--spacing-xl: 24px;
+	--spacing-xxl: 30px;
+	--spacing-rem-xs: 0.2rem;
+	--spacing-rem-sm: 0.5rem;
+	--spacing-rem-md: 1rem;
+	--spacing-rem-lg: 1.5rem;
+	--spacing-rem-xl: 2rem;
+	--spacing-percent-sm: 2%;
+	--spacing-percent-md: 5%;
+	
+	/* Layout */
+	--border-radius-sm: 5px;
+	--border-radius-md: 10px;
+	--border-width: 1px;
+}
+
+/* ============================================
+   GLOBAL RESETS & BASE STYLES
+   ============================================ */
+html {
+	background-color: var(--color-bg-white);
+}
+
+body {	
+	margin: 0;
+	font-family: var(--font-body);
+	color: var(--color-text-primary);	
+	background-color: var(--color-bg-white);
+}
+
+p {
+	line-height: 1.5;
+}
+
+a {
+	color: var(--color-text-dark);
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	color: var(--color-link-hover);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+}
+
+#mainwrapper {
+	width: 100%;
+	min-height: 100vh;
+	background-color: var(--color-bg-white);
+}
+
+body #content {
+	margin-top: var(--spacing-lg);
+	padding-right: var(--spacing-percent-sm);
+	padding-left: var(--spacing-percent-sm);	
+}
+
+.topdotLogo {
+	height: 50px;
+}
+
+/* Reset list styles for navigation */
+nav ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/* Breadcrumbs (used across blog + project detail pages) */
+.breadcrumb-container {
+	max-width: 100%;
+	overflow: hidden;
+	padding-left: var(--spacing-percent-sm);
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.breadcrumb {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.breadcrumb li {
+	margin-right: 10px;
+}
+
+.breadcrumb li:last-child {
+	margin-right: 0;
+}
+
+.breadcrumb li a {
+	color: var(--color-text-breadcrumb);
+	text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+	color: var(--color-link-hover);
+}
+
+.breadcrumb li span {
+	color: var(--color-text-breadcrumb);
+}

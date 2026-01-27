@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BL7SMMJKEG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -14,94 +13,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>topdot architects</title>
 
-	<!-- Set Open graph photo for this page-->
 	<meta property="og:image" content="https://topdot.ca/images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Featured.jpg" />
 	
 	<link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
 	<script src="https://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
 
-	<link href="../../css/blogPostStyle.css?v=1.0" rel="stylesheet" type="text/css">
-	<link href="../../css/css.css?v=1.0" rel="stylesheet" type="text/css">
+	<link href="../../css/base.css" rel="stylesheet" type="text/css">
+	<link href="../../css/layout.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 </head>
 
 <body>
 	
-	<!-- JS for the list of post names -->
-<script>
-		var cr01 = "Angle House";
-		var cr02 = "Island House";
-		var cr03 = "House of Circulation";
-		var cr04 = "House of Comfort";
-		var cr05 = "Elevation Escape"; 		/* MORE PHOTOS */
-		var cr06 = "Brawley"; 				/* PENDING */
-		var cr07 = "Fairfield"; 			/* PENDING */
-		var cr08 = "Elevate One"; 
-		var cr09 = "House of Generations";	
-		var cr10 = "Glass Garden";
-		
-	
-		var muc01 = "Ocean View"			/* need image description */
-		var muc02 = "Park 1"
-		var muc03 = "Discovery Centre"
-		var muc04 = "Etihad Museum"			/* need image description */
-		var muc05 = "Missing Middle" 		/* done */
-		var muc06 = "SpaceWise"				/*Thirteenth - need image description */		
-		var muc07 = "Skyward"				/* Mimico */
-		var muc08 = "Crazy Burger"
-		var muc09 = "Light Breeze"			/*done */	
-		var muc10 = "Family Dentistree"			
-		
-		
-		var ai01 = "Kinetic Facade"			/* Need description */
-		var ai02 = "Honeycomb"				/* done */
-		var ai03 = "Stripe"					/* Need description */
-		var ai04 = "V-Bookshelf"			/* done */
-		var ai05 = "Tempo Vancouver"		/* done */
-		var ai06 = "Tunel"					/* done */
-		var ai07 = "Hyperbolica Parabola"	/* Need description */
-		var ai08 = "Manta Facebook"			/* done */
-
-		
-		var ir01 = "Svartensgatan"			/* done */
-		var ir02 = "Oakvill"				/* done */
-		var ir03 = "Fairfield"				/* PENDING */
-		var ir04 = "Wilson"					/* PENDING */
-
-		
-	</script><!-- Set the name for the page so it applies to the fields which uses <span id="page-name"></span>	-->
+	<script src="../../js/pageNames.js" defer></script>
 	<script>      
 		let pageName = muc08;      		
     </script>
-		<div id="mainwrapper">	
-			<header>
-
-		<div id="logo">			
-			<a href="../../index.html">
-				<div id="logoImage">			
-					<img src="../../images/circleLogo.png" class="topdotLogo">
-				</div>
-			</a>
-			<a href="../../index.html" title="">
-				<div id="logoText">			
-					topdot architects
-				</div>
-			</a>
-		</div>
-
-		<nav id="menu"> 
-			<a id="homeButton" href="../../index.html" class="selected" onclick="selectLink(this)">Home</a> 
-			<a href="../../projects.html" class="selected" onclick="selectLink(this)">Projects</a>
-			<a href="../../practice.html" class="selected" onclick="selectLink(this)">Practice</a>
-			<a href="../../blog.html" class="selected" onclick="selectLink(this)">Blog</a>			
-			<a href="../../contact.html" class="selected" onclick="selectLink(this)">Contact</a>
-
-		</nav>
-		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i>
-		</a></header>	
+	<div id="mainwrapper">	
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/header.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/header.php";
+		?>
 
 			<div class="breadcrumb-container">
 			  <ul class="breadcrumb">
@@ -114,7 +52,6 @@
 			</div>			
 
 			<div id="post">			  
-				<!-- Set the Featured image -->
 				<div id="feturedImgContainer">
 					<img src="../../images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Featured.jpg"> 
 				</div>
@@ -123,7 +60,6 @@
                       <div class="post-wrapper">						  
                           <div class="post-LeftContainer">							  
                               <h1 class="post-title"> <span id="post-name"></span></h1>
-                              <!-- Set the Location -->
                               <h2 class="post-subtitle">Toronto, ON</h2>							  
                           </div>						  
                           <div class="post-RightContainer">
@@ -147,7 +83,6 @@
 			</div>
 			
 		<div id="masonry" class="masonry">
-			<!-- Set the gallery images -->
 			<div id="masonryItem" class="mItem">
 				<img src="../../images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/01.jpg">
 			</div>
@@ -194,25 +129,9 @@
 		?>
 	</div>	
 	
-<!-- JS for the page name variable  -->
 <script src="../../js/pageName.js" defer></script>
 
-<!-- Shared navigation JS (hamburger + selected nav link) -->
 <script src="../../js/nav.js" defer></script>
 
-<!-- JS for the subscription form  -->
-<script>
-      (function (s, e, n, d, er) {
-        s['Sender'] = er;
-        s[er] = s[er] || function () {
-          (s[er].q = s[er].q || []).push(arguments)
-        }, s[er].l = 1 * new Date();
-        var a = e.createElement(n),
-            m = e.getElementsByTagName(n)[0];
-        a.async = 1;
-        a.src = d;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
-      sender('3ba11c462d5629')
-    </script></body>
+</body>
 </html>
