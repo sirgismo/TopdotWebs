@@ -18,7 +18,7 @@
 	<link href="css/base.css" rel="stylesheet" type="text/css">
 	<link href="css/layout.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap">
-	<script src="https://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 </head>
@@ -59,6 +59,57 @@
 				</h1>
 			</div>
 		</section>
+
+		<div class="home-section home-section--projects" aria-label="Featured projects section">
+			<div class="section-break" role="separator" aria-label="Featured projects title">
+				<span class="section-break__label">WE DID.</span>
+			</div>
+
+			<section class="projects-contact" aria-label="Projects and contact">
+				<div class="projects-contact__inner">
+					<div class="projects-contact__scroll" aria-label="Featured projects">
+						<div class="projects-contact__track">
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/01.jpg" alt="Homepage project image 1">
+							</div>
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/02.jpg" alt="Homepage project image 2">
+							</div>
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/03.jpg" alt="Homepage project image 3">
+							</div>
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/04.jpg" alt="Homepage project image 4">
+							</div>
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/05.jpg" alt="Homepage project image 5">
+							</div>
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/06.jpg" alt="Homepage project image 6">
+							</div>
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/07.jpg" alt="Homepage project image 7">
+							</div>
+							<div class="projects-contact__card">
+								<img src="images/HomepageScroll/08.jpg" alt="Homepage project image 8">
+							</div>
+						</div>
+					</div>
+
+					<div class="projects-contact__content">
+						<div class="projects-contact__group">
+							<p class="projects-contact__text">See what we've built.</p>
+							<a class="projects-contact__button projects-contact__button--outline" href="projects.html">Projects →</a>
+						</div>
+
+						<div class="projects-contact__group">
+							<p class="projects-contact__text">Talk to us about your dream.</p>
+							<a class="projects-contact__button projects-contact__button--filled" href="contact.html">Contact us →</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
 
 		<?php
 		$__dir = __DIR__;
@@ -143,6 +194,166 @@
       onScroll();
       window.addEventListener('scroll', onScroll, { passive: true });
     }
+  })();
+</script>
+
+<script>
+  (function () {
+    const track = document.querySelector('.projects-contact__track');
+    if (!track) return;
+
+    // Clone items for infinite loop
+    const items = Array.from(track.children);
+    items.forEach(item => {
+      const clone = item.cloneNode(true);
+      track.appendChild(clone);
+    });
+
+    let isDown = false;
+    let startX = 0;
+    let startScrollLeft = 0;
+    let currentScrollPos = 0; // Track sub-pixel position
+    let autoScrollSpeed = 0.15; // Now 0.1 will work!
+    let isPaused = false;
+    let pauseTimeout = null;
+    let rafId = null;
+
+    const scroll = () => {
+      if (!isDown && !isPaused) {
+        currentScrollPos += autoScrollSpeed;
+        track.scrollLeft = currentScrollPos;
+        
+        // Sync back if they are different (e.g. at boundaries or after manual scroll)
+        if (Math.abs(track.scrollLeft - currentScrollPos) > 1) {
+          currentScrollPos = track.scrollLeft;
+        }
+
+        // Infinite loop check
+        const maxScroll = track.scrollWidth / 2;
+        if (track.scrollLeft >= maxScroll) {
+          track.scrollLeft -= maxScroll;
+          currentScrollPos = track.scrollLeft;
+        }
+      } else {
+        // Keep currentScrollPos in sync while dragging or paused
+        currentScrollPos = track.scrollLeft;
+      }
+      rafId = requestAnimationFrame(scroll);
+    };
+
+    const onPointerDown = (e) => {
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+      isDown = true;
+      isPaused = true;
+      if (pauseTimeout) clearTimeout(pauseTimeout);
+      
+      track.classList.add('is-dragging');
+      track.setPointerCapture(e.pointerId);
+      startX = e.clientX;
+      startScrollLeft = track.scrollLeft;
+    };
+
+    const onPointerMove = (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const dx = e.clientX - startX;
+      track.scrollLeft = startScrollLeft - dx;
+
+      // Infinite loop check during drag
+      const maxScroll = track.scrollWidth / 2;
+      if (track.scrollLeft >= maxScroll) {
+        track.scrollLeft -= maxScroll;
+        startX = e.clientX;
+        startScrollLeft = track.scrollLeft;
+      } else if (track.scrollLeft <= 0) {
+        track.scrollLeft += maxScroll;
+        startX = e.clientX;
+        startScrollLeft = track.scrollLeft;
+      }
+    };
+
+    const endDrag = () => {
+      isDown = false;
+      track.classList.remove('is-dragging');
+      
+      // Resume auto-scroll after 3 seconds
+      if (pauseTimeout) clearTimeout(pauseTimeout);
+      pauseTimeout = setTimeout(() => {
+        isPaused = false;
+      }, 1000);
+    };
+
+    track.addEventListener('pointerdown', onPointerDown);
+    track.addEventListener('pointermove', onPointerMove, { passive: false });
+    track.addEventListener('pointerup', endDrag);
+    track.addEventListener('pointercancel', endDrag);
+    track.addEventListener('pointerleave', endDrag);
+
+    // Hover logic
+    track.addEventListener('mouseenter', () => {
+      isPaused = true;
+      if (pauseTimeout) clearTimeout(pauseTimeout);
+    });
+
+    track.addEventListener('mouseleave', () => {
+      if (!isDown) {
+        if (pauseTimeout) clearTimeout(pauseTimeout);
+        pauseTimeout = setTimeout(() => {
+          isPaused = false;
+        }, 1000);
+      }
+    });
+
+    // Start the loop
+    rafId = requestAnimationFrame(scroll);
+
+    // Clean up on window unload to prevent memory leaks
+    window.addEventListener('unload', () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      if (pauseTimeout) clearTimeout(pauseTimeout);
+    }, { once: true });
+  })();
+</script>
+
+<script>
+  (function() {
+    const section = document.querySelector('.projects-contact');
+    const content = document.querySelector('.projects-contact__content');
+    if (!section || !content) return;
+
+    let rafId = 0;
+    let lastRatio = -1;
+
+    const updateExpandRatio = () => {
+      rafId = 0;
+      const rect = content.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // Calculate how much of the section is visible
+      // 0 = just started entering from bottom
+      // 1 = fully visible or filling the viewport
+      const visibleHeight = Math.min(rect.bottom, viewportHeight) - Math.max(rect.top, 0);
+      let ratio = Math.max(0, Math.min(1, visibleHeight / rect.height));
+
+      // Map 0-0.9 visibility to 0-1.0 expansion
+      // This ensures it hits full width when 90% visible
+      ratio = Math.min(1, ratio / 0.9);
+      
+      if (ratio !== lastRatio) {
+        // Keep a short decimal to reduce style churn while preserving smoothness
+        section.style.setProperty('--expand-ratio', ratio.toFixed(4));
+        lastRatio = ratio;
+      }
+    };
+
+    const requestUpdate = () => {
+      if (rafId) return;
+      rafId = window.requestAnimationFrame(updateExpandRatio);
+    };
+
+    window.addEventListener('scroll', requestUpdate, { passive: true });
+    window.addEventListener('resize', requestUpdate, { passive: true });
+    requestUpdate(); // Initial check
   })();
 </script>
 

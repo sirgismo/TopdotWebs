@@ -6,39 +6,40 @@ require_once __DIR__ . "/base.php";
 $base = topdot_site_base_url();
 ?>
 
-<div id="footerbar">
-    <div class="footer-column">
-        <p class="footer-column-title">Projects</p>
-        <p><a href="<?php echo $base; ?>/Projects/ArtInstallation/">Art Installation</a></p>
-        <p><a href="<?php echo $base; ?>/Projects/customResidential.html">Custom Residential</a></p>
-        <p><a href="<?php echo $base; ?>/Projects/multiUnit-Commercial-MixedUse.html">Multi-Unit | Commercial | Mixed-Use</a></p>
+<footer class="site-footer" aria-label="Footer">
+    <div class="site-footer__main" aria-label="Footer content">
+        <div class="site-footer__col site-footer__col--left">
+            <img class="site-footer__logo" src="<?php echo $base; ?>/images/circleLogo.png" alt="topdot logo" />
+            <div class="site-footer__wordmark" aria-label="topdot architects">
+                <div class="site-footer__wordmark-top">topdot</div>
+                <div class="site-footer__wordmark-bottom">architects</div>
+            </div>
+        </div>
+
+        <nav class="site-footer__col site-footer__col--center site-footer__nav" aria-label="Footer navigation">
+            <a class="site-footer__nav-link" href="<?php echo $base; ?>/projects.html">Projects</a>
+            <a class="site-footer__nav-link" href="<?php echo $base; ?>/contact.html">Contact</a>
+            <a class="site-footer__nav-link" href="<?php echo $base; ?>/practice.html">About</a>
+        </nav>
+
+        <div class="site-footer__col site-footer__col--right" aria-label="Stay in touch">
+            <div class="site-footer__right-title">Stay in touch</div>
+
+            <div class="site-footer__social" aria-label="Social links">
+                <a class="site-footer__social-link" href="https://www.instagram.com/topdotarchitects" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a class="site-footer__social-link" href="#" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+
+            <div class="site-footer__signup" aria-label="Email signup">
+                <div class="sender-form-field" data-sender-form-id="lj2ztg7iaazkzb0k60o"></div>
+            </div>
+        </div>
     </div>
 
-    <div class="footer-column">
-        <p class="footer-column-title">Follow Us</p>
-        <p><a href="<?php echo $base; ?>/blog.html">Blog</a></p>
-        <p style="margin-block-end: 0.5em;">
-            <a href="https://www.instagram.com/topdotarchitects" target="_blank" rel="noopener noreferrer">
-                <img src="<?php echo $base; ?>/images/instagram.png" width="36" height="36" alt="" />
-            </a>
-        </p>
-        <p style="margin-block-start: 0em;">
-            <a href="https://www.facebook.com/topdotarchitects" target="_blank" rel="noopener noreferrer">
-                <img src="<?php echo $base; ?>/images/fb.png" width="30" height="30" alt="" />
-            </a>
-        </p>
+    <div class="site-footer__copyright" aria-label="Copyright">
+        © 2025 topdot architects. All rights reserved.
     </div>
-
-    <div class="footer-column">
-        <p class="footer-column-title">Contact Us</p>
-        <p><a href="<?php echo $base; ?>/contact.html">Contact</a></p>
-    </div>
-
-    <div class="footer-column">
-        <p class="footer-column-title">Subscribe For Future Content</p>
-        <div class="sender-form-field" data-sender-form-id="lj2ztg7iaazkzb0k60o"></div>
-    </div>
-</div>
+</footer>
 
 <script>
   (function (s, e, n, d, er) {
