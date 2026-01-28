@@ -28,30 +28,13 @@ $base = topdot_site_base_url();
             <div class="site-footer__social" aria-label="Social links">
                 <a class="site-footer__social-link" href="https://www.instagram.com/topdotarchitects" target="_blank" rel="noopener noreferrer">Instagram</a>
                 <a class="site-footer__social-link" href="#" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-
-            <div class="site-footer__signup" aria-label="Email signup">
-                <div class="sender-form-field" data-sender-form-id="lj2ztg7iaazkzb0k60o"></div>
+                <a class="site-footer__social-link" href="https://www.facebook.com/topdotarchitects" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a class="site-footer__social-link" href="#" aria-label="Newsletter (coming soon)">Newsletter</a>
             </div>
         </div>
     </div>
 
     <div class="site-footer__copyright" aria-label="Copyright">
-        © 2025 topdot architects. All rights reserved.
+        © 2026 topdot architects. All rights reserved.
     </div>
 </footer>
-
-<script>
-  (function (s, e, n, d, er) {
-    s['Sender'] = er;
-    s[er] = s[er] || function () {
-      (s[er].q = s[er].q || []).push(arguments);
-    }, s[er].l = 1 * new Date();
-    var a = e.createElement(n),
-      m = e.getElementsByTagName(n)[0];
-    a.async = 1;
-    a.src = d;
-    m.parentNode.insertBefore(a, m);
-  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
-  sender('3ba11c462d5629');
-</script>
