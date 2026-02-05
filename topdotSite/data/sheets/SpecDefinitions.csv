@@ -1,0 +1,12 @@
+key,label,emit,show_on,order,required
+location,Location,TRUE,list|detail,10,FALSE
+lot_size,Lot Size,TRUE,detail,20,FALSE
+zoning,Zoning,TRUE,detail,30,FALSE
+type,Type,TRUE,detail,40,FALSE
+units,Number of Units,TRUE,detail,50,FALSE
+development_area,Development Area,TRUE,detail,60,FALSE
+construction_type,Construction Type,TRUE,detail,70,FALSE
+developer,Developer,TRUE,detail,80,FALSE
+architect,Architect,TRUE,detail,90,FALSE
+construction_manager,Construction Manager,TRUE,detail,100,FALSE
+

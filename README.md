@@ -1,5 +1,35 @@
 # Topdot Website
 
+## Projects pipeline (Sheets → JSON → assets)
+
+This repo uses a small pipeline so project data stays in Google Sheets while the site reads JSON.
+
+### Source data (CSV exports)
+- `topdotSite/data/sheets/Projects.csv`
+- `topdotSite/data/sheets/ProjectDescriptions.csv`
+- `topdotSite/data/sheets/ProjectSpecs.csv`
+- `topdotSite/data/sheets/SpecDefinitions.csv`
+
+### Build scripts
+Run these after exporting CSVs:
+
+```
+python topdotSite/tools/pipeline/sheets_to_projects_json.py
+python topdotSite/tools/pipeline/sync_project_assets.py
+python topdotSite/tools/pipeline/validate_site.py
+```
+
+### Expected folder conventions
+- `Featured.<ext>` at `image_dir`
+- Gallery images under `image_dir/Gallery/` (any names). The sync script renames to `01..NN` and updates `gallery[]`.
+- Multi-unit diagrams: `image_dir/Diagrams/` (validator warns if missing).
+
+### Add a new project (monthly workflow)
+1. Add rows in Sheets (Projects + Descriptions + Specs).
+2. Create image folders and drop `Featured.<ext>` + gallery images into `Gallery/`.
+3. Run the three scripts above.
+4. Upload `topdotSite/` to host.
+
 
 
 ## Getting started

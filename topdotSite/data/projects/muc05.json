@@ -1,0 +1,59 @@
+{
+  "id": "muc05",
+  "name": "Missing Middle",
+  "slug": "missing-middle",
+  "year": null,
+  "tags": [
+    "multi-unit"
+  ],
+  "status": "published",
+  "location": "Toronto, ON",
+  "featuredImage": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Featured.jpg",
+  "description": [
+    "Introducing the Missing Middle \u2014 a remarkable housing solution perfectly designed to bridge the gap between low-rise single-family homes and mid-rise apartments. This multiplex is thoughtfully crafted to meet the demands of modern families seeking a harmonious blend of comfort, convenience, and affordability.",
+    "Each unit within the Missing Middle offers a spacious 1,600 square feet of living space, providing ample room for families of 4 or 5 to thrive. Featuring 3 bedrooms and a dedicated home office, this multiplex effortlessly balances work and family life. The clever layout ensures minimal sound pollution, allowing you to focus on your tasks while others enjoy their daily activities.",
+    "Prepare to bask in an abundance of natural light that bathes every corner of these remarkable residences. Large windows and strategic positioning let the sun's rays effortlessly illuminate your living spaces, creating a warm and inviting atmosphere throughout the day.",
+    "As you step onto the rooftop patio, a private oasis awaits. Enjoy breathtaking views of the surrounding neighborhood while savoring moments of relaxation or hosting unforgettable gatherings with loved ones. The rooftop patio becomes your personal sanctuary, a space to unwind and revel in the beauty of the outdoors.",
+    "But the Missing Middle doesn't stop there. It leverages the unique topography of its location to accommodate a fourth unit in the lower level, ensuring that every inch of this property is utilized to its fullest potential. Natural light floods into this lower unit, creating a bright and welcoming ambiance that is a rarity in traditional basement living spaces. With thoughtful design and natural ventilation, this unit defies expectations, offering comfort and tranquility.",
+    "Discover the Missing Middle \u2014 a housing marvel that provides the missing piece to the puzzle of affordable and accessible housing for middle-income households. Despite the challenges of Toronto's thriving population and high land costs, this multiplex stands as a testament to innovation and the pursuit of a balanced and sustainable urban lifestyle. Welcome home to a new era of living, where families thrive, work thrives, and community thrives."
+  ],
+  "gallery": [
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/01.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/02.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/03.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/04.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/05.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/06.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/07.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/08.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/09.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/10.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/11.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/12.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/13.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/14.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/15.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Gallery/16.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    },
+    {
+      "key": "development_area",
+      "label": "Development Area",
+      "value": "1,600 sq ft (each unit)",
+      "showOn": [
+        "detail"
+      ],
+      "order": 60
+    }
+  ]
+}

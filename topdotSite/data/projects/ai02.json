@@ -1,0 +1,50 @@
+{
+  "id": "ai02",
+  "name": "Honeycomb",
+  "slug": "honeycomb",
+  "year": null,
+  "tags": [
+    "art-installation"
+  ],
+  "status": "published",
+  "location": "Lule\u00e5, Sweden",
+  "featuredImage": "images/projectsImages/artInstallation/ai02/Featured.jpg",
+  "description": [
+    "The Pavilion with a honeycomb-inspired structure represents a remarkable achievement in architectural design that draws inspiration from nature. This innovative project seeks to leverage the structural geometry of honeycombs, which is highly valued for its high strength-to-weight ratio, allowing for the minimization of material usage and associated costs.",
+    "The Pavilion showcases advanced architectural design strategies that rely on digital modeling and fabrication techniques. The use of these technologies is central to the production of this project and allows for the precise construction of complex geometries, such as those found in honeycombs, to create striking and intricate designs. This use of technology in the design process represents a significant shift in the practice of architecture and highlights the need for architects to embrace new technologies and adapt to emerging trends.",
+    "Furthermore, the project is part of a broader conversation in contemporary architecture around the role of performative design in shaping the built environment. Performative design emphasizes the integration of performance-based criteria into the design process to optimize outcomes in terms of sustainability, energy efficiency, and user experience. The Pavilion is a prime example of how performative design can be used to create visually stunning structures while minimizing their environmental impact."
+  ],
+  "gallery": [
+    "images/projectsImages/artInstallation/ai02/Gallery/01.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/02.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/03.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/04.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/05.gif",
+    "images/projectsImages/artInstallation/ai02/Gallery/06.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/07.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/08.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/09.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/10.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/11.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/12.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/13.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/14.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/15.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/16.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/17.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/18.jpg",
+    "images/projectsImages/artInstallation/ai02/Gallery/19.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Lule\u00e5, Sweden",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

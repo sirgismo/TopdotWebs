@@ -1,0 +1,112 @@
+[
+  {
+    "id": "best-location-for-building-a-house",
+    "title": "Best Location for Building a House",
+    "slug": "best-location-for-building-a-house",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/best-location-for-building-a-house/Featured.jpg",
+    "href": "blog-post.html?id=best-location-for-building-a-house",
+    "detailJson": "data/blog/best-location-for-building-a-house.json",
+    "legacyHtml": "Blog/best-location-for-building-a-house.html"
+  },
+  {
+    "id": "building-a-house",
+    "title": "Building a House",
+    "slug": "building-a-house",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/building-a-house/Featured.jpg",
+    "href": "blog-post.html?id=building-a-house",
+    "detailJson": "data/blog/building-a-house.json",
+    "legacyHtml": "Blog/building-a-house.html"
+  },
+  {
+    "id": "building-permit-in-toronto",
+    "title": "Building Permit in Toronto",
+    "slug": "building-permit-in-toronto",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/building-permit-in-toronto/Featured.jpg",
+    "href": "blog-post.html?id=building-permit-in-toronto",
+    "detailJson": "data/blog/building-permit-in-toronto.json",
+    "legacyHtml": "Blog/building-permit-in-toronto.html"
+  },
+  {
+    "id": "choose-a-realtor-in-toronto",
+    "title": "Choose a Reator in Toronto",
+    "slug": "choose-a-reator-in-toronto",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/choose-a-realtor-in-toronto/Featured.jpg",
+    "href": "blog-post.html?id=choose-a-realtor-in-toronto",
+    "detailJson": "data/blog/choose-a-realtor-in-toronto.json",
+    "legacyHtml": "Blog/choose-a-realtor-in-toronto.html"
+  },
+  {
+    "id": "choose-an-architecture-firm-in-toronto",
+    "title": "Choose an Architecture Firm in Toronto",
+    "slug": "choose-an-architecture-firm-in-toronto",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/choose-an-architecture-firm-in-toronto/Featured.jpg",
+    "href": "blog-post.html?id=choose-an-architecture-firm-in-toronto",
+    "detailJson": "data/blog/choose-an-architecture-firm-in-toronto.json",
+    "legacyHtml": "Blog/choose-an-architecture-firm-in-toronto.html"
+  },
+  {
+    "id": "committee-of-adjustment-toronto",
+    "title": "Committee of Adjustment in Toronto",
+    "slug": "committee-of-adjustment-in-toronto",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/committee-of-adjustment-toronto/Featured.jpg",
+    "href": "blog-post.html?id=committee-of-adjustment-toronto",
+    "detailJson": "data/blog/committee-of-adjustment-toronto.json",
+    "legacyHtml": "Blog/committee-of-adjustment-toronto.html"
+  },
+  {
+    "id": "expanding-housing-options-in-neighbourhoods",
+    "title": "Expanding Housing Options in Neighbourhoods (EHON)",
+    "slug": "expanding-housing-options-in-neighbourhoods-ehon",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/expanding-housing-options-in-neighbourhoods/Featured.jpg",
+    "href": "blog-post.html?id=expanding-housing-options-in-neighbourhoods",
+    "detailJson": "data/blog/expanding-housing-options-in-neighbourhoods.json",
+    "legacyHtml": "Blog/expanding-housing-options-in-neighbourhoods.html"
+  },
+  {
+    "id": "laneway-and-garden-suites-in-toronto",
+    "title": "Laneway and Garden Suites in Toronto",
+    "slug": "laneway-and-garden-suites-in-toronto",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/laneway-and-garden-suites-in-toronto/Featured.jpg",
+    "href": "blog-post.html?id=laneway-and-garden-suites-in-toronto",
+    "detailJson": "data/blog/laneway-and-garden-suites-in-toronto.json",
+    "legacyHtml": "Blog/laneway-and-garden-suites-in-toronto.html"
+  },
+  {
+    "id": "selecting-a-construciton-company",
+    "title": "Selecting a Construction Company",
+    "slug": "selecting-a-construction-company",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/selecting-a-construciton-company/Featured.jpg",
+    "href": "blog-post.html?id=selecting-a-construciton-company",
+    "detailJson": "data/blog/selecting-a-construciton-company.json",
+    "legacyHtml": "Blog/selecting-a-construciton-company.html"
+  },
+  {
+    "id": "should-i-hire-an-architect-or-designer",
+    "title": "Should I Hire an Architect or Designer",
+    "slug": "should-i-hire-an-architect-or-designer",
+    "date": null,
+    "tags": [],
+    "thumbnail": "images/blogImages/should-i-hire-an-architect-or-designer/Featured.jpg",
+    "href": "blog-post.html?id=should-i-hire-an-architect-or-designer",
+    "detailJson": "data/blog/should-i-hire-an-architect-or-designer.json",
+    "legacyHtml": "Blog/should-i-hire-an-architect-or-designer.html"
+  }
+]

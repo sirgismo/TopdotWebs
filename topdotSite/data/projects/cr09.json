@@ -1,0 +1,49 @@
+{
+  "id": "cr09",
+  "name": "House of Generations",
+  "slug": "house-of-generations",
+  "year": null,
+  "tags": [
+    "custom-residential"
+  ],
+  "status": "published",
+  "location": "East York, Toronto, ON",
+  "featuredImage": "images/projectsImages/customReisdential/cr09/Featured.jpg",
+  "description": [
+    "This modern new built house is a remarkable feat of design and engineering. The unique feature of the house is that it can't have any windows on the side walls, which is compensated for by the use of skylights, a central void, and huge windows on the front and rear elevation, flooding the entire house with natural light. The basement of the house is designed with a separate entrance and two patios in front and back, which bring in more natural light and fresh air. The basement can be completely separated, offering privacy and independence for grandparents to live with their children. The ground floor is an open concept design, providing ample space for the family to interact and socialize. The house has a huge deck on the backside with access from the family room, where one can relax on a comfortable set of sofas during the summer months.",
+    "The house is split on the garage walls edge, which offers the possibility of accommodating an extra floor on top of the garage as a library and home office space, complete with a nice fireplace and glass walls. The master bedroom has a high cathedral ceiling with two separate walk-in closets, one of which is connected to the on-suite. There is a big skylight on top of the master bathroom to bring in natural light while maintaining privacy. The smart system implemented in the house opens the skylight during the day and night, providing natural ventilation and making the bathroom a serene and relaxing space. This modern new built house is a masterpiece of design and engineering, offering the perfect blend of functionality and aesthetics, and a home where you can enjoy natural light and fresh air without compromising on privacy or comfort."
+  ],
+  "gallery": [
+    "images/projectsImages/customReisdential/cr09/Gallery/01.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/02.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/03.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/04.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/05.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/06.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/07.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/08.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/09.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/10.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/11.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/12.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/13.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/14.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/15.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/16.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/17.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/18.jpg",
+    "images/projectsImages/customReisdential/cr09/Gallery/19.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "East York, Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

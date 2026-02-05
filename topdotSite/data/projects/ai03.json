@@ -1,0 +1,61 @@
+{
+  "id": "ai03",
+  "name": "Stripe",
+  "slug": "stripe",
+  "year": null,
+  "tags": [
+    "art-installation"
+  ],
+  "status": "published",
+  "location": "Lule\u00e5, Sweden",
+  "featuredImage": "images/projectsImages/artInstallation/ai03/Featured.jpg",
+  "description": [
+    "Introducing the captivating Stripe Pavilion \u2014 a visionary structure that emerged from a competition aimed at shaping Stockholm's urban landscape in the 2030s. This adaptable pavilion represents a public face for visitors and tourists, drawing inspiration from the beloved stripe motif seen in Swedish culture.",
+    "Developed within a research and design studio, the pavilion underwent a meticulous process using cutting-edge tools and technologies. From physical paper models to digital representations, the design team explored spatial and volumetric aspects, refining their vision along the way.",
+    "Through folding and sculpting techniques, the stripe concept gained depth and dynamism, resulting in a visually engaging structure. The digital realm played a vital role, allowing for algorithmic exploration and optimization of the pavilion's form and performance.",
+    "After extensive digital and physical prototyping, a comprehensive full-scale prototype was built to evaluate the project's feasibility and assess the composition of the stripes. This final prototype showcases the integration of material specificity and architectural vision, capturing the essence of a world-class city. Stripe is an architectural masterpiece that harmoniously blends Swedish heritage with innovative design, captivating viewers with its striking form and conceptual depth."
+  ],
+  "gallery": [
+    "images/projectsImages/artInstallation/ai03/Gallery/01.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/02.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/03.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/04.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/05.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/06.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/07.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/08.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/09.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/10.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/11.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/12.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/13.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/14.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/15.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/16.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/17.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/18.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/19.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/20.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/21.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/22.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/23.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/24.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/25.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/26.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/27.jpg",
+    "images/projectsImages/artInstallation/ai03/Gallery/28.gif",
+    "images/projectsImages/artInstallation/ai03/Gallery/29.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Lule\u00e5, Sweden",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

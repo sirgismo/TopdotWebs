@@ -36,33 +36,23 @@
 		}
 		include $__dir . "/partials/header.php";
 		?>
-	
-	  <div id="grid1">
-		<a href="Projects/customResidential.html">
-		  <div class="image-overlay">
-			<img src="images/projectsImages/crFeatured.jpg">
-			<div class="overlay-text">Custom Residential</div>
-		  </div>
-		</a>
-		<a href="Projects/multiUnit-Commercial-MixedUse.html">
-		  <div class="image-overlay">
-			<img src="images/projectsImages/muFeatured.jpg">
-			<div class="overlay-text">Multi-Unit | Commercial | Mixed-Use</div>
-		  </div>
-		</a>
-		<a href="Projects/artInstallation.html">
-		  <div class="image-overlay">
-			<img src="images/projectsImages/aiFeatured.jpg">
-			<div class="overlay-text">Art Installation</div>
-		  </div>
-		</a>
-		<a href="#" style="pointer-events: none;">
-		  <div class="image-overlay">
-			<img src="images/projectsImages/irFeatured.jpg">
-			<div class="overlay-text">Interior & Retrofit <br>(Under Maintanance. Coming Soon!)</div>
-		  </div>
-		</a>
-	  </div>
+		
+		<div class="breadcrumb-container" aria-label="Breadcrumb">
+		  <ul class="breadcrumb">
+			  <li><a href="index.html">Home</a></li>
+			  <li><span> &gt; </span></li>
+			  <li aria-current="page"><span>Projects</span></li>
+		  </ul>
+		</div>
+		
+		<main class="projects-page" aria-label="Projects">
+			<div class="projects-page__header">
+				<div id="projectsFilters" class="projects-filters" aria-label="Project filters"></div>
+			</div>
+			
+			<div id="projectsEmpty" class="projects-empty" hidden></div>
+			<div id="projectsGrid" class="projects-grid" aria-label="Project grid"></div>
+		</main>
 
 	  <?php
 	  $__dir = __DIR__;
@@ -79,6 +69,8 @@
 <script src="js/pageName.js" defer></script>
 
 <script src="js/nav.js" defer></script>
+
+<script src="js/projects-page.js?v=20260204" defer></script>
 
 </body>
 </html>

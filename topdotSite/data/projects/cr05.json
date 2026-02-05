@@ -1,0 +1,48 @@
+{
+  "id": "cr05",
+  "name": "Elevation Escape",
+  "slug": "elevation-escape",
+  "year": null,
+  "tags": [
+    "custom-residential"
+  ],
+  "status": "published",
+  "location": "Kawartha Lakes, ON",
+  "featuredImage": "images/projectsImages/customReisdential/cr05/Featured.jpg",
+  "description": [
+    "A stunning modern cottage located on a secluded island accessible only by boat. This unique property boasts an enviable position on a hill overlooking the lake, providing a breathtaking panoramic view of the sunrise and sunset. Our design ethos was to create a modern minimalist home while still embracing the island's vernacular materials. The result is a beautiful home that blends perfectly into its surroundings while still being a statement piece.",
+    "One of the most notable features of this property is the path that leads from the boat dock to the entrance of the cottage. We designed the pathway to take advantage of the natural beauty of the island and give a sense of being at one with nature. Upon entering the cottage, you're immediately struck by the double-height ceiling, which creates a sense of space and light. The two separate levels next to each other, rather than on top of each other, further enhance the feeling of spaciousness. To ensure that the property is bathed in natural light and benefits from the surrounding fresh air, we designed the cottage to maximize ventilation and use wood for both the interior and exterior.",
+    "Finally, we created a large deck that extends from the cottage, offering an uninterrupted view of the water. The perfect spot for soaking up the sun, enjoying a morning coffee or entertaining guests. Our design and architectural drawing of this project created a modern and minimalistic cottage that respects the island's vernacular materials and stunning surroundings. Its unique location and design make it a true one-of-a-kind property, perfect for those seeking peace, tranquility and a deep connection with nature."
+  ],
+  "gallery": [
+    "images/projectsImages/customReisdential/cr05/Gallery/01.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/02.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/03.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/04.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/05.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/06.JPG",
+    "images/projectsImages/customReisdential/cr05/Gallery/07.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/08.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/09.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/10.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/11.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/12.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/13.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/14.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/15.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/16.jpg",
+    "images/projectsImages/customReisdential/cr05/Gallery/17.JPG"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Kawartha Lakes, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

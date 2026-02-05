@@ -1,0 +1,94 @@
+{
+  "id": "cr03",
+  "name": "House of Circulation",
+  "slug": "house-of-circulation",
+  "year": null,
+  "tags": [
+    "custom-residential"
+  ],
+  "status": "published",
+  "location": "Toronto, ON",
+  "featuredImage": "images/projectsImages/customReisdential/cr03/Featured.jpg",
+  "description": [
+    "The residence, situated in Mimico, a neighbourhood in the western region of Toronto, underwent a comprehensive renovation that involved adding extensions at the back and above the bungalow structure. The design team worked within the confines of the existing footprint of the century-old fully detached house, retaining and reinforcing only the two side exterior walls of the original structure to qualify for an exemption from the zoning department. This enabled an increase in the living space of the residence, including the addition of a two-bedroom basement unit.",
+    "The modern house boasts a total floor area of 3,500 square feet above ground, with an additional 1,200 square feet in the basement, situated on a 35x135 lot size. It features four bedrooms, three and a half bathrooms, and an attached garage above the ground. In addition, a separate basement unit is included in the design, complete with two bedrooms and a bathroom. The third floor of the building features a remarkable long bridge that connects the front of the house to the rooftop patio at the back. On the second floor, a striking display of walnut wood combined with black metal plates and LED strip lighting produces a modern and distinctive ambiance. The contrasting materials and clever use of lighting create an eye-catching and stylish space."
+  ],
+  "gallery": [
+    "images/projectsImages/customReisdential/cr03/Gallery/01.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/02.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/03.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/04.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/05.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/06.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/07.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/08.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/09.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/10.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/11.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/12.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/13.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/14.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/15.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/16.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/17.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/18.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/19.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/20.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/21.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/22.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/23.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/24.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/25.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/26.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/27.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/28.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/29.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/30.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/31.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/32.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/33.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/34.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/35.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/36.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/37.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/38.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/39.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/40.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/41.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/42.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/43.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/44.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/45.jpg",
+    "images/projectsImages/customReisdential/cr03/Gallery/46.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    },
+    {
+      "key": "lot_size",
+      "label": "Lot Size",
+      "value": "35x135",
+      "showOn": [
+        "detail"
+      ],
+      "order": 20
+    },
+    {
+      "key": "development_area",
+      "label": "Development Area",
+      "value": "3,500 sq ft (above grade) + 1,200 sq ft (basement)",
+      "showOn": [
+        "detail"
+      ],
+      "order": 60
+    }
+  ]
+}

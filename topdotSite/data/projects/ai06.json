@@ -1,0 +1,49 @@
+{
+  "id": "ai06",
+  "name": "Tunel",
+  "slug": "tunel",
+  "year": null,
+  "tags": [
+    "art-installation"
+  ],
+  "status": "published",
+  "location": "Lule\u00e5, Sweden",
+  "featuredImage": "images/projectsImages/artInstallation/ai06/Featured.jpg",
+  "description": [
+    "Manta is an exceptional art installation that represents the core values of Facebook Canada, namely openness and connectivity. The piece is a stunning display of triply periodic minimal surfaces, also known as Gyroids, which are composed of intricately connected 2mm acrylic panels. The Gyroids were created using a sophisticated Grasshopper definition that provided precise digital fabrication and assembly data, resulting in a flawless execution. The installation comprises more than 7,000 clear acrylic pieces, each one representing a member of the global population of over 7 billion individuals. The interlocking pieces are held together by over 13,000 rivets, a testament to Facebook's transparent and collaborative approach to building communities.",
+    "Manta is a visually striking and thought-provoking work of art, illustrating the power of design to express complex ideas and inspire meaningful connections. The installation evokes a sense of wonder and amazement, inviting viewers to engage with the piece and explore its intricate details. Through its dynamic form and interconnectedness, Manta embodies the very essence of Facebook's mission, serving as a reminder of the importance of fostering connections and building communities in today's rapidly changing world."
+  ],
+  "gallery": [
+    "images/projectsImages/artInstallation/ai06/Gallery/01.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/02.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/03.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/04.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/05.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/06.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/07.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/08.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/09.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/10.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/11.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/12.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/13.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/14.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/15.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/16.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/17.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/18.jpg",
+    "images/projectsImages/artInstallation/ai06/Gallery/19.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Lule\u00e5, Sweden",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

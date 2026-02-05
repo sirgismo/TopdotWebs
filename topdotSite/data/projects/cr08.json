@@ -1,0 +1,40 @@
+{
+  "id": "cr08",
+  "name": "Elevate One",
+  "slug": "elevate-one",
+  "year": null,
+  "tags": [
+    "custom-residential"
+  ],
+  "status": "published",
+  "location": "Scarborough, Toronto, ON",
+  "featuredImage": "images/projectsImages/customReisdential/cr08/Featured.jpg",
+  "description": [
+    "The architectural retrofit of this existing building on top of a hill has completely transformed its appearance. The front elevation has been redesigned with the addition of a high-ceiling entrance area featuring a modern wood door and a huge glass showcase above it, highlighting a beautiful chandelier at night. A convenient walking closet has been added at the entrance, and a dining area on the left side complements the family room and kitchen. The existing stucco exterior cladding has been replaced with a combination of aluminum panes, wood composite, and milky stucco, all topped with high parapets to create a modern and minimalistic look. Vertical louvers have been added to the exterior of the entrance area to extend the feeling of the entrance void while keeping it welcoming and protected. The new hard landscape design features a stone landing in the entrance area and floating finished concrete with hidden linear lights. The breathtaking view of the sunset can now be fully appreciated from this beautifully updated building."
+  ],
+  "gallery": [
+    "images/projectsImages/customReisdential/cr08/Gallery/01.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/02.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/03.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/04.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/05.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/06.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/07.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/08.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/09.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/10.jpg",
+    "images/projectsImages/customReisdential/cr08/Gallery/11.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Scarborough, Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

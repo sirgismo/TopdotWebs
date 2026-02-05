@@ -1,0 +1,42 @@
+{
+  "id": "muc09",
+  "name": "Light Breeze",
+  "slug": "light-breeze",
+  "year": null,
+  "tags": [
+    "multi-unit"
+  ],
+  "status": "published",
+  "location": "Toronto, ON",
+  "featuredImage": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Featured.jpg",
+  "description": [
+    "Light Breeze is a captivating multi-generational multiplex that redefines the concept of harmonious living in Toronto. With its innovative design and thoughtful amenities, this new typology of multiplex brings a refreshing breath of air to the city's housing landscape.",
+    "Step inside, and you'll be greeted by a unique arrangement. The ground floor boasts a spacious unit, perfect for multi-generational families seeking convenience and togetherness. As you ascend to the second floor, two duplex units await, offering privacy and independence for each household.",
+    "At the heart of Light Breeze lies a grand void that fills the building with natural light, illuminating even the darkest corners. This architectural marvel not only enhances the aesthetic appeal but also brings forth a sense of openness and connection to nature. The void serves as a channel for natural ventilation, promoting fresh air circulation throughout the building, ensuring a comfortable and sustainable living environment.",
+    "But that's not all \u2013 Light Breeze takes full advantage of its flat roof to provide an eco-friendly touch. A lush green roof graces the top of the building, creating a serene oasis amidst the urban landscape. Residents can revel in the beauty of nature, unwind, and create cherished memories on the rooftop patio while taking in panoramic views of the city. Furthermore, solar panels adorn the roof, harnessing the power of the sun to promote sustainable energy consumption, reducing environmental impact and utility costs.",
+    "Delving deeper into the design, Light Breeze places the bedrooms of both upper units on the second floor. This intentional placement acts as a sound buffer, ensuring tranquility in the family rooms below. Privacy, peace, and uninterrupted relaxation become synonymous with the living experience in this multiplex.",
+    "Each unit within Light Breeze boasts its own private balcony, offering a personal outdoor retreat to soak in the vibrant cityscape or unwind with a cup of coffee. Additionally, every unit is equipped with a separate HVAC system, providing individual climate control and allowing residents to tailor their comfort to their own preferences.",
+    "Light Breeze invites you to embrace a new era of multi-generational living, where convenience, sustainability, and harmonious design intersect. With its light-filled spaces, green initiatives, and personalized amenities, this multiplex stands as a testament to the possibilities of modern urban living. Welcome home to Light Breeze, where the winds of change bring a fresh and invigorating living experience for generations to come."
+  ],
+  "gallery": [
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Gallery/01.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Gallery/02.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Gallery/03.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Gallery/04.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Gallery/05.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Gallery/06.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Gallery/07.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

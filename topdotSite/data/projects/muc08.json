@@ -1,0 +1,45 @@
+{
+  "id": "muc08",
+  "name": "Crazy Burger",
+  "slug": "crazy-burger",
+  "year": null,
+  "tags": [
+    "commercial"
+  ],
+  "status": "published",
+  "location": "Toronto, ON",
+  "featuredImage": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Featured.jpg",
+  "description": [
+    "The architectural design of Crazy Burger is a testament to the owner's vision of creating an inviting and visually striking space that complements the exceptional food served within its walls. The emphasis is on crafting an environment that combines elegance, coziness, and minimalism, providing patrons with a calm and enjoyable dining experience.",
+    "Starting with the lighting design, dimmable pot lights and strategically placed strip LEDs are carefully integrated into the architecture to offer versatility and control over the ambiance. These lighting fixtures create a warm and welcoming atmosphere during evening hours, allowing guests to dine in a setting that is both intimate and enchanting.",
+    "The interior layout of Crazy Burger is thoughtfully designed to optimize space while ensuring a comfortable dining experience. Limited in-house seating encourages a cozy and intimate atmosphere, allowing guests to enjoy their meals in a relaxed setting. Additionally, strategically positioned areas around the bar cater to those who prefer a quick take-away option, ensuring efficient service without compromising on comfort.",
+    "A prominent architectural feature of Crazy Burger is the impressive fridge positioned behind the bar area. This large glass showcase serves as a focal point, enticing guests with a visually stunning display of the high-quality beef and ingredients used in their burgers. The fridge is cleverly integrated into the overall design, with a backdrop of vibrant green accents, adding a touch of freshness and visual appeal.",
+    "Throughout the interior, a minimalist design approach is embraced, ensuring that the attention remains on the food and the overall dining experience. The architectural elements, such as clean lines, uncluttered spaces, and a harmonious colour palette, work together to create a visually pleasing and modern aesthetic.",
+    "In summary, the architectural work for Crazy Burger is characterized by its attention to detail, functionality, and aesthetic appeal. From the carefully considered lighting design to the smart utilization of space, every element of the architecture contributes to creating an environment that elevates the enjoyment of the exceptional burgers served within the establishment. The result is an architectural masterpiece that seamlessly integrates with the culinary experience, providing a delightful and memorable visit for all patrons of Crazy Burger."
+  ],
+  "gallery": [
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/01.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/02.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/03.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/04.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/05.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/06.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/07.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/08.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/09.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/10.jpg",
+    "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Gallery/11.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cr10",
+  "name": "Glass Garden",
+  "slug": "glass-garden",
+  "year": null,
+  "tags": [
+    "custom-residential"
+  ],
+  "status": "published",
+  "location": "Markham, ON",
+  "featuredImage": "images/projectsImages/customReisdential/cr10/Featured.jpg",
+  "description": [
+    "This modern new built house is a stunning example of contemporary architecture and design. With a minimalistic approach to its construction, this 6000 square foot property is built around an open concept layout that offers ample space and a free-flowing atmosphere. The house has three parking garages and a hidden main kitchen along with a secondary kitchen attached to it. The entrance area and family room have a void each, which creates a grand sense of spaciousness. A central garden area in the house offers a unique view from every corner of the house and brings in plenty of natural light. The glass corridors that connect the three cube-shaped units of the house add an element of sleek modernism and elevate the style of the house.",
+    "The house has a basement that includes a gym with a view to the central garden, a sauna, and a theater room. It also features a master bedroom for guests, complete with a bar and a party area with a fireplace and a view to the backyard and central garden. The ground floor of the house boasts a spacious family room with a floating fireplace, which separates it from the dining area. The family room has a direct view of the backyard and a huge deck that extends the living area outside. The house has five bedrooms on the second floor and is equipped with smart home technology, allowing for effortless control of all systems. The flat roof adds to the contemporary aesthetic of the house and rounds out the modern design of this beautiful property. The design team is exploring various cladding options that can express a strong modern feel while maintaining a sense of hominess. They are using a combination of stone, metal, wood, and glass in different ways to find the best option. To make the design process faster and explore more options, the team is utilizing parametric methods and tools."
+  ],
+  "gallery": [
+    "images/projectsImages/customReisdential/cr10/Gallery/01.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/02.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/03.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/04.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/05.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/06.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/07.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/08.jpg",
+    "images/projectsImages/customReisdential/cr10/Gallery/09.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Markham, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

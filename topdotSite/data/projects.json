@@ -1,0 +1,366 @@
+[
+  {
+    "id": "cr10",
+    "name": "Glass Garden",
+    "slug": "glass-garden",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr10/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr10",
+    "detailJson": "data/projects/cr10.json"
+  },
+  {
+    "id": "cr09",
+    "name": "House of Generations",
+    "slug": "house-of-generations",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr09/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr09",
+    "detailJson": "data/projects/cr09.json"
+  },
+  {
+    "id": "cr08",
+    "name": "Elevate One",
+    "slug": "elevate-one",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr08/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr08",
+    "detailJson": "data/projects/cr08.json"
+  },
+  {
+    "id": "cr07",
+    "name": "Fairfield",
+    "slug": "fairfield",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr07/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=cr07",
+    "detailJson": "data/projects/cr07.json"
+  },
+  {
+    "id": "cr06",
+    "name": "Brawley",
+    "slug": "brawley",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr06/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr06",
+    "detailJson": "data/projects/cr06.json"
+  },
+  {
+    "id": "cr05",
+    "name": "Elevation Escape",
+    "slug": "elevation-escape",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr05/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr05",
+    "detailJson": "data/projects/cr05.json"
+  },
+  {
+    "id": "cr04",
+    "name": "House of Comfort",
+    "slug": "house-of-comfort",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr04/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr04",
+    "detailJson": "data/projects/cr04.json"
+  },
+  {
+    "id": "cr03",
+    "name": "House of Circulation",
+    "slug": "house-of-circulation",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr03/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr03",
+    "detailJson": "data/projects/cr03.json"
+  },
+  {
+    "id": "cr02",
+    "name": "Island House",
+    "slug": "island-house",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr02/Featured.JPG",
+    "status": "published",
+    "href": "project.html?id=cr02",
+    "detailJson": "data/projects/cr02.json"
+  },
+  {
+    "id": "cr01",
+    "name": "Angle House",
+    "slug": "angle-house",
+    "year": null,
+    "tags": [
+      "custom-residential"
+    ],
+    "thumbnail": "images/projectsImages/customReisdential/cr01/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=cr01",
+    "detailJson": "data/projects/cr01.json"
+  },
+  {
+    "id": "muc10",
+    "name": "Family Dentistree",
+    "slug": "family-dentistree",
+    "year": null,
+    "tags": [
+      "commercial"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc10/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=muc10",
+    "detailJson": "data/projects/muc10.json"
+  },
+  {
+    "id": "muc09",
+    "name": "Light Breeze",
+    "slug": "light-breeze",
+    "year": null,
+    "tags": [
+      "multi-unit"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc09/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=muc09",
+    "detailJson": "data/projects/muc09.json"
+  },
+  {
+    "id": "muc08",
+    "name": "Crazy Burger",
+    "slug": "crazy-burger",
+    "year": null,
+    "tags": [
+      "commercial"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc08/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=muc08",
+    "detailJson": "data/projects/muc08.json"
+  },
+  {
+    "id": "muc07",
+    "name": "Skyward",
+    "slug": "skyward",
+    "year": null,
+    "tags": [
+      "multi-unit"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc07/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=muc07",
+    "detailJson": "data/projects/muc07.json"
+  },
+  {
+    "id": "muc06",
+    "name": "SpaceWise",
+    "slug": "spacewise",
+    "year": null,
+    "tags": [
+      "multi-unit"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc06/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=muc06",
+    "detailJson": "data/projects/muc06.json"
+  },
+  {
+    "id": "muc05",
+    "name": "Missing Middle",
+    "slug": "missing-middle",
+    "year": null,
+    "tags": [
+      "multi-unit"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc05/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=muc05",
+    "detailJson": "data/projects/muc05.json"
+  },
+  {
+    "id": "muc04",
+    "name": "Etihad Museum",
+    "slug": "etihad-museum",
+    "year": null,
+    "tags": [
+      "commercial"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc04/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=muc04",
+    "detailJson": "data/projects/muc04.json"
+  },
+  {
+    "id": "muc03",
+    "name": "Discovery Centre",
+    "slug": "discovery-centre",
+    "year": null,
+    "tags": [
+      "commercial"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc03/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=muc03",
+    "detailJson": "data/projects/muc03.json"
+  },
+  {
+    "id": "muc02",
+    "name": "Park 1",
+    "slug": "park-1",
+    "year": null,
+    "tags": [
+      "commercial"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc02/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=muc02",
+    "detailJson": "data/projects/muc02.json"
+  },
+  {
+    "id": "muc01",
+    "name": "Ocean View",
+    "slug": "ocean-view",
+    "year": null,
+    "tags": [
+      "multi-unit"
+    ],
+    "thumbnail": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc01/Featured.jpg",
+    "status": "coming-soon",
+    "href": "project.html?id=muc01",
+    "detailJson": "data/projects/muc01.json"
+  },
+  {
+    "id": "ai08",
+    "name": "Manta Facebook",
+    "slug": "manta-facebook",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai08/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=ai08",
+    "detailJson": "data/projects/ai08.json"
+  },
+  {
+    "id": "ai07",
+    "name": "Hyperbolica Parabola",
+    "slug": "hyperbolica-parabola",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai07/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=ai07",
+    "detailJson": "data/projects/ai07.json"
+  },
+  {
+    "id": "ai06",
+    "name": "Tunel",
+    "slug": "tunel",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai06/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=ai06",
+    "detailJson": "data/projects/ai06.json"
+  },
+  {
+    "id": "ai05",
+    "name": "Tempo Vancouver",
+    "slug": "tempo-vancouver",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai05/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=ai05",
+    "detailJson": "data/projects/ai05.json"
+  },
+  {
+    "id": "ai04",
+    "name": "V-Bookshelf",
+    "slug": "v-bookshelf",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai04/Featured.JPG",
+    "status": "published",
+    "href": "project.html?id=ai04",
+    "detailJson": "data/projects/ai04.json"
+  },
+  {
+    "id": "ai03",
+    "name": "Stripe",
+    "slug": "stripe",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai03/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=ai03",
+    "detailJson": "data/projects/ai03.json"
+  },
+  {
+    "id": "ai02",
+    "name": "Honeycomb",
+    "slug": "honeycomb",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai02/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=ai02",
+    "detailJson": "data/projects/ai02.json"
+  },
+  {
+    "id": "ai01",
+    "name": "Kinetic Facade",
+    "slug": "kinetic-facade",
+    "year": null,
+    "tags": [
+      "art-installation"
+    ],
+    "thumbnail": "images/projectsImages/artInstallation/ai01/Featured.jpg",
+    "status": "published",
+    "href": "project.html?id=ai01",
+    "detailJson": "data/projects/ai01.json"
+  }
+]

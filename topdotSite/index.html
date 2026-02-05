@@ -68,6 +68,7 @@
 			<section class="projects-contact" aria-label="Projects and contact">
 				<div class="projects-contact__inner">
 					<div class="projects-contact__scroll" aria-label="Featured projects">
+						<a class="projects-contact__cta projects-contact__cta--projects" href="projects.html">Projects →</a>
 						<div class="projects-contact__track">
 							<div class="projects-contact__card">
 								<img src="images/HomepageScroll/01.jpg" alt="Homepage project image 1">
@@ -98,13 +99,8 @@
 
 					<div class="projects-contact__content">
 						<div class="projects-contact__group">
-							<p class="projects-contact__text">Homes that started with a conversation.</p>
-							<a class="projects-contact__button " href="projects.html">Projects →</a>
-						</div>
-
-						<div class="projects-contact__group">
 							<p class="projects-contact__text">Let's start ours.</p>
-							<a class="projects-contact__button " href="contact.html">Contact us →</a>
+							<a class="projects-contact__cta projects-contact__cta--contact" href="contact.html">Contact us →</a>
 						</div>
 					</div>
 				</div>
@@ -357,29 +353,6 @@
   })();
 </script>
 
-<!--
-<script>
-  function startAutoplay() {
-    const slides = document.querySelectorAll('#slider img');
-    if (!slides.length) return null;
-
-    let currentIndex = 0;
-    slides.forEach((img, idx) => {
-      if (img.classList.contains('active')) {
-        currentIndex = idx;
-      }
-    });
-
-    return setInterval(() => {
-      slides[currentIndex].classList.remove('active');
-      currentIndex = (currentIndex + 1) % slides.length;
-      slides[currentIndex].classList.add('active');
-    }, 3000);
-  }
-
-  let intervalId = startAutoplay();
-</script>
--->
 	
 
 <script src="js/pageName.js" defer></script>

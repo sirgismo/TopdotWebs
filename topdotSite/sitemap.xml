@@ -4,129 +4,35 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+<!--
+  Canonical sitemap for the current (JSON-driven) site.
+  Project/blog detail pages are discovered via the listing pages.
+-->
 
 <url>
   <loc>https://topdot.ca/</loc>
-  <lastmod>2023-04-13T14:52:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://topdot.ca/index.html</loc>
-  <lastmod>2023-04-13T14:52:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://topdot.ca/projects.html</loc>
-  <lastmod>2023-04-13T14:52:23+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://topdot.ca/blog.html</loc>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://topdot.ca/practice.html</loc>
-  <lastmod>2023-04-13T14:52:22+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://topdot.ca/contact.html</loc>
-  <lastmod>2023-04-13T14:52:22+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
-<url>
-  <loc>https://topdot.ca/Projects/customResidential.html</loc>
-  <lastmod>2023-04-13T14:50:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/multiUnitAndCommercial.html</loc>
-  <lastmod>2023-04-13T14:50:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/artInstallation.html</loc>
-  <lastmod>2023-04-13T14:50:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr10.html</loc>
-  <lastmod>2023-04-13T14:51:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr09.html</loc>
-  <lastmod>2023-04-13T14:51:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr08.html</loc>
-  <lastmod>2023-04-13T14:51:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr05.html</loc>
-  <lastmod>2023-04-13T14:51:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr04.html</loc>
-  <lastmod>2023-04-13T14:51:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr03.html</loc>
-  <lastmod>2023-04-13T14:51:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr02.html</loc>
-  <lastmod>2023-04-13T14:51:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/CustomResidential/cr01.html</loc>
-  <lastmod>2023-04-13T14:51:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai08.html</loc>
-  <lastmod>2023-04-13T14:50:59+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai07.html</loc>
-  <lastmod>2023-04-13T14:50:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai06.html</loc>
-  <lastmod>2023-04-13T14:50:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai05.html</loc>
-  <lastmod>2023-04-13T14:50:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai04.html</loc>
-  <lastmod>2023-04-13T14:50:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai03.html</loc>
-  <lastmod>2023-04-13T14:50:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai02.html</loc>
-  <lastmod>2023-04-13T14:50:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://topdot.ca/Projects/ArtInstallation/ai01.html</loc>
-  <lastmod>2023-04-13T14:50:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
 
 </urlset>

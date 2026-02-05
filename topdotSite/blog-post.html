@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BL7SMMJKEG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BL7SMMJKEG');
+    </script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>topdot architects</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/layout.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="page-blog-post">
+	<script>
+      let pageName = "Blog";
+    </script>
+
+	<div id="mainwrapper">
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/header.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/header.php";
+		?>
+
+		<div class="breadcrumb-container" aria-label="Breadcrumb">
+		  <ul class="breadcrumb">
+			  <li><a href="blog.html">Blog</a></li>
+			  <li><span> &gt; </span></li>
+			  <li aria-current="page"><span id="blogBreadcrumb">Post</span></li>
+		  </ul>
+		</div>
+
+		<main aria-label="Blog post">
+			<div id="post">
+				<div id="feturedImgContainer" aria-label="Blog featured image">
+					<img id="blogFeaturedImg" alt="" decoding="async" loading="eager" fetchpriority="high">
+				</div>
+
+				<div class="post-content">
+					<div style="display: flex; flex-wrap: wrap;">
+					  <div class="post-wrapper">
+						<div class="post-LeftContainer">
+						  <h1 id="blogTitle" class="post-title">Post</h1>
+						</div>
+						<div id="blogBody" class="post-RightContainer" aria-label="Post content"></div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<?php include __DIR__ . "/partials/footer.php"; ?>
+	</div>
+
+	<script src="js/pageName.js" defer></script>
+	<script src="js/nav.js" defer></script>
+	<script src="js/blog-post.js" defer></script>
+</body>
+</html>
+

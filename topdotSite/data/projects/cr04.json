@@ -1,0 +1,52 @@
+{
+  "id": "cr04",
+  "name": "House of Comfort",
+  "slug": "house-of-comfort",
+  "year": null,
+  "tags": [
+    "custom-residential"
+  ],
+  "status": "published",
+  "location": "Toronto, ON",
+  "featuredImage": "images/projectsImages/customReisdential/cr04/Featured.jpg",
+  "description": [
+    "A modern dwelling that embodies the perfect balance of functionality, comfort, and low-maintenance design. We have focused on the importance of natural light and ventilation, which is evident in the design of this house. The central void acts as a natural light well and provides ventilation throughout the house. The open concept layout adds to the spacious feel of the house, with side access and heated driveway for convenience. The house boasts a smart system, which allows for easy control of lighting, sound, heating, and cooling. Two separate HVAC systems ensure efficient and controlled temperature regulation with a two-zone system.",
+    "The rooftop and basement patios provide perfect spots for relaxation or entertainment, with the option of an outdoor space for all seasons. The house is designed to be low-maintenance, with carefully selected materials that require minimal upkeep, and a low-waste design that maximizes space. The home office is thoughtfully designed, with ample natural light to promote productivity and a peaceful environment. The House of Comfort is truly an embodiment of modern design and functional living, creating a comfortable and inviting environment that will serve as a haven for years to come. A triangle window on the second floor with a perfectly parallel slope to the roof. This design detail not only adds visual interest but also enhances the overall aesthetic appeal of the house.",
+    "A stunning small bridge designed inside the house, connecting the front of the property to the rooftop patio. The bridge is visible from the ground floor, through the central void that hovers above the kitchen, allowing natural light to flood the entire house. The design is not only visually appealing but also functional, creating an easy and convenient access route for homeowners to enjoy the beautiful rooftop space."
+  ],
+  "gallery": [
+    "images/projectsImages/customReisdential/cr04/Gallery/01.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/02.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/03.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/04.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/05.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/06.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/07.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/08.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/09.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/10.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/11.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/12.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/13.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/14.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/15.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/16.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/17.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/18.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/19.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/20.jpg",
+    "images/projectsImages/customReisdential/cr04/Gallery/21.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

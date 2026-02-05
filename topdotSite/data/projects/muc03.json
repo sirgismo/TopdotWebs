@@ -1,0 +1,33 @@
+{
+  "id": "muc03",
+  "name": "Discovery Centre",
+  "slug": "discovery-centre",
+  "year": null,
+  "tags": [
+    "commercial"
+  ],
+  "status": "coming-soon",
+  "location": "Dubai, UAE",
+  "featuredImage": "images/projectsImages/MultiUnit-Commercial-MixedUse/muc03/Featured.jpg",
+  "description": [
+    "The Etihad Museum in Dubai, UAE is a museum that showcases the rich heritage of the United Arab Emirates. It exhibits various aspects of the country's social, political, cultural, scientific, and military history. The museum houses a wide range of items, including old passports and personal artifacts of the UAE rulers. It is also significant as it was the site where important historical events such as the signing of the UAE Constitution and the formation of the UAE as a country occurred. The museum is architecturally designed to represent the signing of the UAE constitution. With its unique design, the museum embodies the significance of this historical event. Admission to the museum for adults is priced at 25 AED (6.81 USD).",
+    "The museum, masterfully designed by Moriyama & Teshima Architects, showcases a harmonious blend of architectural elements and natural surroundings. One of the key contributors to this project was Hamia Aghaiemeibody, one of the Principals of Topdot Architects and former Head of Computation Design at Moriyama & Teshima Architects. With his expertise, he led and executed several crucial tasks that contributed to the museum's exceptional design and functionality.",
+    "Hamia Aghaiemeibody's involvement included the design and form rationalization of the cladding, panelizing the cladding, and optimizing the fabrication process based on the intricate geometry of the museum. Additionally, he played a pivotal role in designing and preparing fabrication documents for the interior free-form surfaces, ensuring the highest level of craftsmanship and precision.",
+    "The museum itself is a testament to the vision and collaboration of talented architects and designers. Its underground and above-ground spaces house permanent and temporary galleries, theatres, event spaces, and archival facilities. The entrance pavilion, gracefully situated above a reflective pool and plaza, captivates visitors with its curved parabolic form representing the historic parchment of the unification agreement. The slender golden columns symbolize the pens used to sign this momentous document.",
+    "Inside the pavilion, the seamless transition from the travertine plaza to the interior reveals terraced viewing platforms and intricate bronze Jali screens, creating an open and flowing space. Natural light permeates the underground areas through various shaped lightwells, illuminating the captivating exhibitions within. As visitors explore, they are led to the circular Union House, the sacred site of the signing ceremony, and the meticulously recreated Guest House where the leaders of the seven emirates resided during negotiations.",
+    "Surrounding the museum, the landscape design pays homage to the past by restoring the original 1971 shoreline of Jumeirah Beach. A reflective pool and sandy beachfront provide a serene and nostalgic atmosphere. This holistic approach, combined with the architectural ingenuity and attention to detail, ensures that every visitor experiences the museum as a captivating journey through history and design."
+  ],
+  "gallery": [],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Dubai, UAE",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

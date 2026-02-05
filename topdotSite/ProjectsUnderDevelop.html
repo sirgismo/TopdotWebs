@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BL7SMMJKEG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BL7SMMJKEG');
+    </script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>topdot architects</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/layout.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<script>
+      let pageName = "Project";
+    </script>
+
+	<script>
+	  // Backwards compatibility: old links used `ProjectsUnderDevelop.html?project=cr01`.
+	  // Redirect them to the real detail page URL.
+	  (function () {
+		const params = new URLSearchParams(window.location.search);
+		const id = params.get("project");
+		if (!id) return;
+		const target = `project.html?id=${encodeURIComponent(id)}`;
+		window.location.replace(target);
+	  })();
+	</script>
+
+	<div id="mainwrapper">
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/header.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/header.php";
+		?>
+
+		<div class="breadcrumb-container" aria-label="Breadcrumb">
+		  <ul class="breadcrumb">
+			  <li><a href="index.html">Home</a></li>
+			  <li><span> &gt; </span></li>
+			  <li><a href="projects.html">Projects</a></li>
+			  <li><span> &gt; </span></li>
+			  <li aria-current="page"><span id="projectBreadcrumb">Project</span></li>
+		  </ul>
+		</div>
+
+		<main class="projects-page" aria-label="Project detail (under development)">
+			<div class="projects-page__header">
+				<h1 id="projectTitle" class="projects-page__title">Project</h1>
+				<div id="projectMeta" class="projects-empty" aria-live="polite"></div>
+			</div>
+
+			<div class="projects-empty">
+				This project page is under development.
+			</div>
+		</main>
+
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/footer.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/footer.php";
+		?>
+	</div>
+
+	<script src="js/pageName.js" defer></script>
+	<script src="js/nav.js" defer></script>
+</body>
+</html>
+

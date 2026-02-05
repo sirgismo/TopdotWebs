@@ -1,0 +1,51 @@
+{
+  "id": "ai07",
+  "name": "Hyperbolica Parabola",
+  "slug": "hyperbolica-parabola",
+  "year": null,
+  "tags": [
+    "art-installation"
+  ],
+  "status": "published",
+  "location": "Stockholm, Sweden",
+  "featuredImage": "images/projectsImages/artInstallation/ai07/Featured.jpg",
+  "description": [
+    "Introducing Hyperbolica Parabola \u2014 an extraordinary art installation that explores the fascinating world of Hyperboloid of Revolution Geometry. This captivating piece instrumentalizes this unique geometric form as a tool to correlate multiple domains and delve into the realms of design exploration.",
+    "By harnessing the power of geometric representation, Hyperbolica Parabola becomes a conduit that bridges different domains of design, including structure, form, and construction. The Hyperboloid of Revolution Geometry serves as a visual representation that encapsulates and harmonizes these various aspects of design.",
+    "This installation poses a compelling question: What are the surface conditions that intersect between design representations, such as geometry and material, and the actual physical realization of a structure? In other words, it explores the boundaries where design concepts meet the tangible manifestation of a building.",
+    "The overall form of the Hyperboloid surface, coupled with its doubly ruled property, bestows it with both structural stability and constructional conventionality. The intersecting lines across the surface give rise to a diagrid pattern, creating a visually striking and structurally sound framework. These intersecting lines also hold the potential to be interpreted and translated as linear building elements, such as beams, further blurring the lines between design, structure, and construction.",
+    "To bring Hyperbolica Parabola to life, meticulous physical hand-made models were created. These models served as a playground for exploring the design possibilities and constructability of the Hyperboloid of Revolution Geometry. Through an iterative process, various physical models were crafted, allowing for a deep understanding of the design's potential and the practical considerations of realizing it in the physical realm.",
+    "Hyperbolica Parabola is a testament to the convergence of art, mathematics, and architectural principles. It invites viewers to contemplate the interplay between form and function, the boundaries between representation and reality, and the potential of geometric explorations in the world of design."
+  ],
+  "gallery": [
+    "images/projectsImages/artInstallation/ai07/Gallery/01.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/02.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/03.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/04.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/05.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/06.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/07.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/08.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/09.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/10.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/11.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/12.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/13.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/14.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/15.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/16.jpg",
+    "images/projectsImages/artInstallation/ai07/Gallery/17.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Stockholm, Sweden",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

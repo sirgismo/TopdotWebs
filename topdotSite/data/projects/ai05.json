@@ -1,0 +1,43 @@
+{
+  "id": "ai05",
+  "name": "Tempo Vancouver",
+  "slug": "tempo-vancouver",
+  "year": null,
+  "tags": [
+    "art-installation"
+  ],
+  "status": "published",
+  "location": "Vancouver, BC",
+  "featuredImage": "images/projectsImages/artInstallation/ai05/Featured.jpg",
+  "description": [
+    "The Tempo Vancouver is a visionary proposal for a temporary structure that symbolizes the defining traits of contemporary society - speed, change, transformation, and integration. Its dynamic form is in a constant state of transformation, offering a fluid and captivating experience for those who walk along its structure. As one moves through it, the Tempo takes on various images, depending on their speed and position, resulting in a multi-faceted and visually stimulating experience that embodies space, time, and movement.",
+    "This unique structure not only engages the mind but also the body of its viewers, with two wings acting as urban furniture that provide comfortable seating, leaning, and lounging options. In addition, the middle network of strings serves as an interactive social platform that invites people to connect with one another. As they look through the string network, viewers' eyes may meet accidentally, creating a visual connection that is informal and spontaneous. Apart from being a social and educational medium, the string network also doubles as an interactive playground for children. Small plastic balls are installed on the strings, encouraging children to play and learn in an engaging and interactive environment.",
+    "Overall, the Tempo Vancouver is a fascinating example of innovative and thought-provoking design, offering a unique and immersive experience that is both playful and meaningful. It underscores the potential of design to bring people together, fostering connections and stimulating social interaction in unexpected ways."
+  ],
+  "gallery": [
+    "images/projectsImages/artInstallation/ai05/Gallery/01.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/02.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/03.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/04.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/05.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/06.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/07.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/08.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/09.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/10.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/11.jpg",
+    "images/projectsImages/artInstallation/ai05/Gallery/12.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Vancouver, BC",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

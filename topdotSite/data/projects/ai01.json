@@ -1,0 +1,46 @@
+{
+  "id": "ai01",
+  "name": "Kinetic Facade",
+  "slug": "kinetic-facade",
+  "year": null,
+  "tags": [
+    "art-installation"
+  ],
+  "status": "published",
+  "location": "Stockholm, Sweden",
+  "featuredImage": "images/projectsImages/artInstallation/ai01/Featured.jpg",
+  "description": [
+    "Introducing the mesmerizing Kinetic Facade, a groundbreaking research study exploring the possibilities of a responsive cladding system. This innovative installation combines the power of sensors and a kinetic component to create a facade that interacts with light, dynamically adapting to the needs of the building.",
+    "At the core of the design is a remarkable cladding system capable of folding and transforming in response to varying levels of light. By harnessing the potential of this dynamic element, the Kinetic Facade can provide precise control over the amount of light entering the building.",
+    "When maximum illumination is desired, the cladding opens up, allowing 100% of the light to pass through and create a vibrant, well-lit interior space. Conversely, when a more controlled lighting atmosphere is required, the cladding can completely block the light, ensuring privacy and creating a more intimate environment.",
+    "This adaptive and responsive nature of the Kinetic Facade offers not only practical benefits but also an artistic and dynamic visual experience. As the cladding gracefully transforms, it engages with its surroundings, captivating viewers and evoking a sense of wonder.",
+    "Step into a world where architecture and technology seamlessly blend, where the boundaries between interior and exterior spaces blur, and where light becomes a living entity guided by the Kinetic Facade. Experience the transformative power of this innovative installation, as it creates a harmonious synergy between light, form, and function."
+  ],
+  "gallery": [
+    "images/projectsImages/artInstallation/ai01/Gallery/01.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/02.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/03.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/04.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/05.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/06.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/07.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/08.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/09.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/10.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/11.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/12.jpg",
+    "images/projectsImages/artInstallation/ai01/Gallery/13.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Stockholm, Sweden",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+/* ============================================
+   SHARED HEADER (moved from layout.css)
+   ============================================ */
+#mainwrapper header.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--space-xl);
+	position: sticky;
+	top: 0;
+	box-sizing: border-box;
+	padding: var(--space-md) var(--space-xl);
+	background-color: var(--color-bg);
+	z-index: 100;
+	font-family: var(--font-heading);
+	font-style: normal;
+	font-weight: 400;
+	transition: background-color 0.25s ease, backdrop-filter 0.25s ease;
+}
+
+/* Home Page Header Overlays */
+#homePage #mainwrapper header.site-header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+#homePage #mainwrapper header.site-header.header--overlay {
+	background-color: transparent !important;
+	backdrop-filter: none !important;
+	mix-blend-mode: difference;
+}
+
+/* When the mobile menu is open, disable header blending and ensure it stays on top */
+body.menu-open #mainwrapper header.site-header {
+	z-index: 10001;
+}
+
+body.menu-open #homePage #mainwrapper header.site-header.header--overlay {
+	mix-blend-mode: normal;
+}
+
+body.menu-open #homePage #mainwrapper header.site-header.header--overlay #logoText,
+body.menu-open #homePage #mainwrapper header.site-header.header--overlay .icon,
+body.menu-open #homePage #mainwrapper header.site-header.header--overlay nav#menu a {
+	color: var(--color-dark);
+}
+
+body.menu-open #homePage #mainwrapper header.site-header.header--overlay .topdotLogo {
+	filter: none;
+	mix-blend-mode: normal;
+}
+
+#homePage #mainwrapper header.site-header.header--overlay #logoText,
+#homePage #mainwrapper header.site-header.header--overlay nav#menu a,
+#homePage #mainwrapper header.site-header.header--overlay .icon {
+	color: var(--color-text-white);
+}
+
+#homePage #mainwrapper header.site-header.header--overlay nav#menu a:hover {
+	color: var(--color-text-white);
+}
+
+/* Keep hamburger crisp on blended header */
+#homePage #mainwrapper header.site-header.header--overlay .icon {
+	mix-blend-mode: normal;
+	opacity: 1;
+}
+
+#homePage #mainwrapper header.site-header.header--overlay .topdotLogo {
+	filter: invert(1);
+	mix-blend-mode: difference;
+}
+
+#homePage #mainwrapper header.site-header:not(.header--overlay) {
+	background-color: var(--color-bg) !important;
+	backdrop-filter: blur(8px) !important;
+}
+
+/* Logo */
+#mainwrapper header.site-header #logo {
+	display: flex;
+	align-items: center;
+	gap: var(--space-sm);
+}
+
+#mainwrapper header.site-header #logo a {
+	color: var(--color-dark);
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+#mainwrapper header.site-header #logoText {
+	color: var(--color-text);
+	font-size: var(--font-size-logo);
+	white-space: nowrap;
+	font-weight: 400;
+}
+
+/* Navigation */
+#mainwrapper header.site-header #menu {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: var(--space-xl);
+	flex: 1;
+}
+
+#mainwrapper header.site-header #menu a {
+	color: var(--color-dark);
+	font-size: var(--font-size-md);
+	text-decoration: none;
+}
+
+#mainwrapper header.site-header #menu a:hover {
+	opacity: 0.7;
+}
+
+#mainwrapper header.site-header #menu a.selected {
+	text-decoration: underline;
+	text-underline-offset: 0.15em;
+}
+
+/* Mobile Menu Toggle */
+#mainwrapper header.site-header .icon {
+	display: none;
+}
+
+/* Mobile menu overlays (scrim + animated lines) */
+.menu-scrim {
+	position: fixed;
+	inset: 0;
+	background: rgba(245, 245, 240, 0.85);
+	backdrop-filter: blur(12px);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 240ms ease;
+	z-index: 9998;
+	mix-blend-mode: normal !important;
+}
+
+.menu-lines {
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 180ms ease;
+	z-index: 9999;
+	mix-blend-mode: normal !important;
+}
+
+.menu-line {
+	position: absolute;
+	/* JS sets top/left at the hamburger origin */
+	width: var(--dx, 0px);
+	height: 2px;
+}
+
+.menu-line__h {
+	width: 100%;
+	height: 2px;
+	background: var(--color-dark);
+	opacity: 1;
+	transform-origin: right;
+	transform: scaleX(var(--sx0, 0));
+}
+
+@keyframes menu-line-slide {
+	from { transform: translate(calc(var(--dx, 0px) * -1), 0); }
+	to { transform: translate(calc(var(--dx, 0px) * -1), var(--dy, 0px)); }
+}
+
+@keyframes menu-line-grow-retract {
+	0% { transform: scaleX(var(--sx0, 0)); }
+	35% { transform: scaleX(1); }
+	75% { transform: scaleX(1); }
+	100% { transform: scaleX(0); }
+}
+
+@keyframes menu-item-rise {
+	to { transform: translateY(0); opacity: 1; }
+}
+
+/* FontAwesome icon adjustments */
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 25px !important;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 828px) {
+	/* Hide desktop nav by default */
+	#mainwrapper header.site-header #menu {
+		display: none;
+	}
+
+	/* Show hamburger */
+	#mainwrapper header.site-header .icon {
+		display: block;
+		position: fixed;
+		right: 0;
+		top: 0;
+		padding-top: var(--space-xxl);
+		padding-bottom: var(--space-md);
+		padding-right: var(--space-md);
+		z-index: 10001; /* Above menu */
+		color: var(--color-dark);
+	}
+
+	/* Open state: translucent panel (60% width) that expands in */
+	body.menu-open .menu-scrim,
+	body.menu-open .menu-lines {
+		opacity: 1;
+	}
+
+	body.menu-open .menu-scrim {
+		pointer-events: auto;
+	}
+
+	body.menu-open #mainwrapper header.site-header #menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 0;
+		position: fixed;
+		inset: 0;
+		height: 100svh;
+		width: 100vw;
+		padding: 0;
+		box-sizing: border-box;
+		background: transparent;
+		backdrop-filter: none;
+		opacity: 1;
+		z-index: 10000;
+		pointer-events: auto;
+		overflow: hidden;
+		isolation: isolate; /* Create new stacking context */
+		mix-blend-mode: normal !important; /* Reset blending for this container */
+	}
+
+	/* Measuring phase: allow JS to read final positions */
+	body.menu-measuring #mainwrapper header.site-header #menu {
+		transform: none;
+		opacity: 0;
+		pointer-events: none;
+		transition: none !important;
+	}
+
+	/* Animate menu links "rising from lines" */
+	body.menu-open #mainwrapper header.site-header #menu a {
+		display: block;
+		font-family: var(--font-heading);
+		font-weight: 200;
+		font-size: clamp(2.2rem, 6vh, 4.6rem);
+		line-height: 1.05;
+		color: var(--color-dark);
+		text-decoration: none;
+		min-height: 44px;
+		padding: 10px 0;
+		transform: translateY(14px);
+		opacity: 0;
+	}
+
+	body.menu-animate #mainwrapper header.site-header #menu a {
+		animation: menu-item-rise 600ms ease forwards;
+		animation-delay: calc((var(--i, 0) * 200ms) + 1200ms);
+	}
+
+	/* Lines: slide down, then grow + retract */
+	body.menu-animate .menu-line {
+		animation: menu-line-slide 800ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+		animation-delay: calc(var(--i, 0) * 200ms);
+	}
+
+	body.menu-animate .menu-line__h {
+		animation: menu-line-grow-retract 2200ms ease forwards;
+		animation-delay: calc((var(--i, 0) * 200ms) + 400ms);
+	}
+}

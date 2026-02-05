@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BL7SMMJKEG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BL7SMMJKEG');
+    </script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>topdot architects</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/layout.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="page-project-detail">
+	<script>
+      let pageName = "Project";
+    </script>
+
+	<div id="mainwrapper">
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/header.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/header.php";
+		?>
+
+		<div class="breadcrumb-container" aria-label="Breadcrumb">
+		  <ul class="breadcrumb">
+			  <li><a href="index.html">Home</a></li>
+			  <li><span> &gt; </span></li>
+			  <li><a href="projects.html">Projects</a></li>
+			  <li><span> &gt; </span></li>
+			  <li aria-current="page"><span id="projectBreadcrumb">Project</span></li>
+		  </ul>
+		</div>
+
+		<main class="project-detail" aria-label="Project detail">
+			<figure id="projectHero" class="project-detail__hero" aria-label="Project featured image">
+				<img
+					id="projectHeroImg"
+					alt=""
+					loading="eager"
+					decoding="async"
+					fetchpriority="high"
+				/>
+			</figure>
+
+			<header class="project-detail__header">
+				<h1 id="projectTitle" class="project-detail__title">Project</h1>
+			</header>
+
+			<section class="project-detail__body" aria-label="Project overview">
+				<section id="projectDescription" class="project-detail__description" aria-label="Project description" hidden></section>
+				<aside id="projectStats" class="project-detail__stats" aria-label="Project stats"></aside>
+			</section>
+
+			<section class="project-detail__gallery" aria-label="Project gallery">
+				<div id="projectGallery" class="project-gallery" aria-label="Gallery grid"></div>
+				<div id="projectEmpty" class="projects-empty" hidden></div>
+			</section>
+		</main>
+
+		<?php
+		$__dir = __DIR__;
+		while (!file_exists($__dir . "/partials/footer.php")) {
+			$__parent = dirname($__dir);
+			if ($__parent === $__dir) break;
+			$__dir = $__parent;
+		}
+		include $__dir . "/partials/footer.php";
+		?>
+	</div>
+
+	<div
+		id="lightbox"
+		class="lightbox"
+		role="dialog"
+		aria-modal="true"
+		aria-label="Image viewer"
+		aria-hidden="true"
+		hidden
+	>
+		<div class="lightbox__dialog">
+			<button id="lightboxClose" class="lightbox__close" type="button" aria-label="Close image viewer">×</button>
+			<button id="lightboxPrev" class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous image">‹</button>
+			<img id="lightboxImg" class="lightbox__img" alt="" />
+			<button id="lightboxNext" class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next image">›</button>
+		</div>
+	</div>
+
+	<script src="js/pageName.js" defer></script>
+	<script src="js/nav.js" defer></script>
+	<script src="js/project-detail.js" defer></script>
+</body>
+</html>
+

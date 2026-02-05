@@ -7,8 +7,6 @@
 	/* Core Colors */
 	--color-dark: #1a1a1a;
 	--color-white: #f5f5f0;
-	--color-accent: #B7990D;
-	--color-accent-dark: #9f810a;
 
 	/* Semantic Text */
 	--color-text: var(--color-dark);
@@ -89,11 +87,24 @@ p {
 a {
 	color: var(--color-dark);
 	text-decoration: none;
-	transition: color 0.2s ease;
+	transition: opacity 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 a:hover {
-	color: var(--color-accent);
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+	transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+button:hover:not(:disabled),
+input[type="button"]:hover:not(:disabled),
+input[type="submit"]:hover:not(:disabled) {
+	opacity: 0.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -162,9 +173,16 @@ nav ul li {
 }
 
 .breadcrumb li a:hover {
-	color: var(--color-accent);
+	opacity: 0.7;
+	text-decoration: none;
 }
 
 .breadcrumb li span {
 	color: var(--color-text-secondary);
+}
+
+/* Current page emphasis */
+.breadcrumb li[aria-current="page"] span {
+	color: var(--color-dark);
+	border-bottom: 1px solid rgba(26, 26, 26, 0.35);
 }

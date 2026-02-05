@@ -1,0 +1,63 @@
+{
+  "id": "ai04",
+  "name": "V-Bookshelf",
+  "slug": "v-bookshelf",
+  "year": null,
+  "tags": [
+    "art-installation"
+  ],
+  "status": "published",
+  "location": "Stockholm, Sweden",
+  "featuredImage": "images/projectsImages/artInstallation/ai04/Featured.JPG",
+  "description": [
+    "The VoroNode shelf is a unique design that draws inspiration from the intricate appearance and non-linear cellular networking of endothelial cells in the human lung, as well as the logic of Voronoi diagrams. This shelf is composed of nodes, or joins, that branch out in a Voronoi-like pattern. The length of each branch varies according to the intended physical load of each shelf, ensuring optimal stability and weight distribution.",
+    "Manta is a visually striking and thought-provoking work of art, illustrating the power of design to express complex ideas and inspire meaningful connections. The installation evokes a sense of wonder and amazement, inviting viewers to engage with the piece and explore its intricate details. Through its dynamic form and interconnectedness, Manta embodies the very essence of Facebook's mission, serving as a reminder of the importance of fostering connections and building communities in today's rapidly changing world.",
+    "The VoroNode shelf project reflects on the aesthetic of systems, highlighting the interdependence between form and function. In contrast to traditional approaches that prioritize visual aesthetics, the VoroNode shelf emphasizes the intrinsic relationship between structure and function, drawing on inspiration from nature to create a design that is both visually striking and highly functional. Through this project, designers can explore the potential of systems-oriented design and develop a deeper understanding of the complex relationships between form, function, and aesthetics."
+  ],
+  "gallery": [
+    "images/projectsImages/artInstallation/ai04/Gallery/01.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/02.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/03.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/04.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/05.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/06.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/07.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/08.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/09.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/10.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/11.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/12.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/13.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/14.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/15.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/16.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/17.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/18.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/19.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/20.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/21.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/22.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/23.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/24.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/25.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/26.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/27.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/28.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/29.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/30.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/31.jpg",
+    "images/projectsImages/artInstallation/ai04/Gallery/32.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Stockholm, Sweden",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

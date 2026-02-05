@@ -1,0 +1,76 @@
+{
+  "id": "cr02",
+  "name": "Island House",
+  "slug": "island-house",
+  "year": null,
+  "tags": [
+    "custom-residential"
+  ],
+  "status": "published",
+  "location": "Toronto, ON",
+  "featuredImage": "images/projectsImages/customReisdential/cr02/Featured.JPG",
+  "description": [
+    "The objective of this architectural project is to conceptualize an aesthetically pleasing, contemporary residence with sustainable, efficient, and comfortable features. The property is designed with a central division, whereby the rear aspect of the house is three-stories in height, while the front is two-stories, affording each room a degree of privacy and autonomy. Our team prioritized sustainability and efficient use of space, creating an energy-efficient dwelling that reduces waste and carbon emissions. The exterior cladding materials, namely cedar and stucco, were chosen to give the house a modern yet natural appearance that seamlessly integrates with the surrounding environment.",
+    "The proposed architectural project aims to create an artistic minimal modern house that prioritizes sustainability, efficiency, and comfort. The house features a split design, with a three-story floor on the rear side and a two-story floor on the front portion, providing privacy and independence to each room. The design team has prioritized sustainability and efficient use of space, resulting in an energy-efficient house with a reduced carbon footprint. The use of cedar and stucco for cladding creates a natural and modern look that blends seamlessly with the surrounding environment.",
+    "The open concept layout allows for the seamless merging of living, dining, and kitchen areas, while the ground floor's large windows on both the front and rear sides provide ample natural light. The void in the center of the house creates a visual connection between levels and allows natural light to enter the house. The remote-controlled skylights on top create natural ventilation by allowing hot air to escape and cool air to flow in. The master bedroom, located on the third floor on the rear side, offers privacy and a peaceful retreat from the rest of the house. The room is designed to maximize natural light and ventilation, with large windows and access to a private balcony. Each room features its separate bathroom, adding to the residents' privacy and comfort.",
+    "The basement is a versatile space with a bedroom, separate washroom, living room, and bar, providing added value and flexibility to the house. It can be used as an entertainment area, guest suite, or rental unit. The entrance area features a minimal modern and compact fireplace designed integrated with the closet, adding a cozy feel to the space.",
+    "The split concept in the middle of the house creates a unique island-like design, with each floor acting as an independent unit with its bedroom and bathroom. This design provides more privacy and comfort for the residents, allowing them to have their private space within the house. Overall, this artistic minimal modern house offers a sustainable, efficient, and comfortable space that maximizes natural light, ventilation, privacy, and efficient use of space. The island-like design, combined with a focus on sustainability and efficient energy use, makes it an ideal choice for modern living."
+  ],
+  "gallery": [
+    "images/projectsImages/customReisdential/cr02/Gallery/01.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/02.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/03.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/04.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/05.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/06.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/07.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/08.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/09.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/10.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/11.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/12.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/13.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/14.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/15.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/16.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/17.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/18.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/19.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/20.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/21.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/22.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/23.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/24.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/25.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/26.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/27.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/28.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/29.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/30.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/31.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/32.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/33.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/34.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/35.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/36.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/37.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/38.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/39.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/40.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/41.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/42.jpg",
+    "images/projectsImages/customReisdential/cr02/Gallery/43.jpg"
+  ],
+  "specs": [
+    {
+      "key": "location",
+      "label": "Location",
+      "value": "Toronto, ON",
+      "showOn": [
+        "list",
+        "detail"
+      ],
+      "order": 10
+    }
+  ]
+}

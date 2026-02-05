@@ -1,0 +1,247 @@
+/* ============================================
+   PROJECTS + CONTACT SECTION (moved from layout.css)
+   ============================================ */
+.home-section--projects {
+	margin-top: var(--section-gap-lg);
+	margin-bottom: var(--section-gap-md);
+}
+
+.projects-contact {
+	position: relative;
+	background-color: var(--color-bg);
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.projects-contact__content::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 30%;
+	background-color: #1a1a1a;
+	border-top-left-radius: var(--border-radius-md);
+	border-bottom-left-radius: var(--border-radius-md);
+	z-index: 0;
+	pointer-events: none;
+	transform: scaleX(var(--expand-ratio, 0));
+	transform-origin: right;
+	will-change: transform;
+}
+
+.projects-contact__inner {
+	position: relative;
+	display: flex;
+	gap: 0;
+	--projects-contact-cta-height: 34px;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	/* One shared height so scroll + content match */
+	--projects-contact-height: clamp(380px, 30vw, 520px);
+	min-height: var(--projects-contact-height);
+}
+
+/* Shared CTA styles (projects + contact) */
+.projects-contact__cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	text-decoration: none;
+	font-family: var(--font-heading);
+	font-size: 1.15rem;
+	font-weight: 400;
+	line-height: 1;
+	transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.projects-contact__cta:hover {
+	opacity: 0.7;
+	transform: scale(1.03);
+}
+
+/* Projects CTA sits on top of scroll photos */
+.projects-contact__cta--projects {
+	position: absolute;
+	top: 12px;
+	right: 0;
+	padding-right: var(--space-gutter);
+	color: #ffffff;
+	z-index: 5;
+	mix-blend-mode: difference;
+}
+
+.projects-contact__scroll {
+	position: relative;
+	flex: 0 0 70%;
+	overflow: hidden;
+	background-color: var(--color-bg);
+	box-sizing: border-box;
+	display: flex;
+	align-items: stretch;
+}
+
+.projects-contact__track {
+	display: flex;
+	gap: clamp(16px, 2vw, 24px);
+	overflow-x: auto;
+	scrollbar-width: none;
+	padding: 0 var(--space-gutter) 0 0;
+	cursor: grab;
+	user-select: none;
+	will-change: transform;
+	align-items: stretch;
+}
+
+.projects-contact__track::-webkit-scrollbar {
+	display: none;
+}
+
+.projects-contact__track.is-dragging {
+	cursor: grabbing;
+}
+
+.projects-contact__card {
+	flex: 0 0 auto;
+	height: var(--projects-contact-height);
+	aspect-ratio: 2 / 3; /* keep a consistent card proportion */
+	width: auto; /* width derives from height + aspect-ratio */
+	max-width: 320px; /* prevent overly wide cards on huge screens */
+}
+
+.projects-contact__card img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: var(--border-radius-sm);
+	pointer-events: none;
+}
+
+.projects-contact__content {
+	flex: 0 0 30%;
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	font-family: var(--font-heading);
+	font-weight: 300;
+	position: relative;
+	background: transparent;
+	/* Match mobile gutter padding so CTA aligns consistently */
+	padding: clamp(15px, 2vw, 30px) var(--space-gutter);
+	box-sizing: border-box;
+	min-width: 0;
+	min-height: var(--projects-contact-height);
+}
+
+.projects-contact__group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	flex: 1 1 auto;
+	min-height: 100%;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.projects-contact__text {
+	font-size: clamp(1.4rem, 2.6vw, 3rem);
+	margin: 0;
+	color: #ffffff;
+	mix-blend-mode: difference;
+	z-index: 2;
+}
+
+/* Contact CTA in right column, bottom-right */
+.projects-contact__cta--contact {
+	z-index: 2;
+	position: relative;
+	margin-left: auto; /* right */
+	margin-top: auto;  /* bottom */
+	align-self: flex-end;
+	padding: 10px 0;
+	margin-right: 0;
+	color: #ffffff;
+	mix-blend-mode: difference;
+	background: none;
+	border: none;
+}
+
+@media (max-width: 828px) {
+	.projects-contact__inner {
+		flex-direction: column;
+	}
+
+	.projects-contact__cta {
+		right: 0;
+		padding-right: var(--space-gutter);
+		align-items: flex-end;
+	}
+
+	.projects-contact__scroll,
+	.projects-contact__content {
+		flex: 1 1 auto;
+	}
+
+	.projects-contact__scroll {
+		margin-bottom: var(--space-lg);
+	}
+
+	.projects-contact__content::after {
+		left: 50%;
+		border-radius: var(--border-radius-md);
+	}
+
+	.projects-contact__content {
+		/* give real horizontal room on mobile */
+		padding: clamp(15px, 2vw, 30px) var(--space-gutter);
+		min-height: 42vh; /* ensures room so groups can equalize */
+	}
+
+	.projects-contact__text{
+		position: relative;
+		left: 0;
+		text-align: left;
+		max-width: 100%;
+		width: 100%;
+		align-self: stretch;
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: normal;
+		transform: none;
+		margin-left: 0;
+		mix-blend-mode: difference;
+		color: #ffffff;
+	}
+
+	.projects-contact__cta--contact {
+		position: relative;
+		left: 0;
+		/* keep it right-aligned (avoid full-width centering) */
+		width: auto;
+		max-width: 100%;
+		margin-left: auto;
+		justify-content: flex-end;
+		transform: none;
+		mix-blend-mode: difference;
+		color: #ffffff;
+	}
+
+	.projects-contact__group {
+		align-items: flex-start;
+		flex: 1 1 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.projects-contact__track {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
